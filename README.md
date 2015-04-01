@@ -14,7 +14,8 @@ open "Aviation map.qgs" with QGIS (http://qgis.org/)
 
 Screenshots
 ===========
-![BOS](https://raw.github.com/jlmcgraw/aviationMap/master/screenshots/BOS.png)
+
+![CAE and nearby airspaces and Military Traning Routes](https://raw.github.com/jlmcgraw/aviationMap/master/screenshots/Screenshot%20-%2004012015%20-%2002:05:53%20PM.png)
 
 ![BOS with Lighthouse Visual overlaid](https://raw.github.com/jlmcgraw/aviationMap/master/screenshots/BOS%20with%20Lighthouse%20Visual%20overlaid.png)
 
