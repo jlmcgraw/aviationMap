@@ -153,7 +153,7 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Airways">
+    <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Airways">
       <customproperties/>
       <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Military Training Routes">
         <customproperties/>
@@ -204,7 +204,7 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Miscellaneous">
+    <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Miscellaneous">
       <customproperties/>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="com_com20140817233122759" name="com_com">
         <customproperties/>
@@ -252,7 +252,7 @@
         </layer-tree-layer>
       </layer-tree-group>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Checked" name="Obstacles">
+    <layer-tree-group expanded="0" checked="Qt::Checked" name="Obstacles">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="obstacle_obstacle20140806223050930" name="> 500' AGL">
         <customproperties/>
@@ -1063,28 +1063,31 @@
       </layer-tree-group>
       <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Maps">
         <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150326092049146" name="Google Hybrid">
+        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Graticules">
           <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Graticules">
-          <customproperties/>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="onefDegreeGraticulesAsLines20150302134040269" name="onefDegreeGraticulesAsLines">
+          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="onefDegreeGraticulesAsLines20150302134040269" name="onefDegreeGraticulesAsLines">
             <customproperties/>
           </layer-tree-layer>
           <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="halfDegreeGraticulesAsPolygons20141212153318682" name="halfDegreeGraticulesAsPolygons">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="halfDegreeGraticulesAsLines20150302134003168" name="halfDegreeGraticulesAsLines">
+          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="halfDegreeGraticulesAsLines20150302134003168" name="halfDegreeGraticulesAsLines">
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenLayers_plugin_layer20150401140129415" name="Google Streets">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150326092049146" name="Google Hybrid">
+          <customproperties/>
+        </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150103114321887" name="OCM Landscape">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Natural Earth">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Natural Earth">
         <customproperties/>
-        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Unused">
+        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Unused">
           <customproperties/>
           <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ne_10m_antarctic_ice_shelves_lines20150401125700280" name="ne_10m_antarctic_ice_shelves_lines">
             <customproperties/>
@@ -1207,28 +1210,28 @@
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="ne_10m_rivers_north_america20150401125700944" name="ne_10m_rivers_north_america">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ne_10m_rivers_north_america20150401125700944" name="ne_10m_rivers_north_america">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="ne_10m_rivers_europe20150401125700905" name="ne_10m_rivers_europe">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ne_10m_rivers_europe20150401125700905" name="ne_10m_rivers_europe">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="ne_10m_lakes_north_america20150401125700719" name="ne_10m_lakes_north_america">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ne_10m_lakes_north_america20150401125700719" name="ne_10m_lakes_north_america">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="ne_10m_minor_islands20150401125700844" name="ne_10m_minor_islands">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ne_10m_minor_islands20150401125700844" name="ne_10m_minor_islands">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="ne_10m_lakes20150401125700743" name="ne_10m_lakes">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ne_10m_lakes20150401125700743" name="ne_10m_lakes">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="ne_10m_coastline20150401125700517" name="ne_10m_coastline">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ne_10m_coastline20150401125700517" name="ne_10m_coastline">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ne_10m_land20150401125700803" name="ne_10m_land">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="ne_10m_ocean20150401125700871" name="ne_10m_ocean">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ne_10m_ocean20150401125700871" name="ne_10m_ocean">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -1242,10 +1245,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-10260200.03294809348881245</xmin>
-      <ymin>3509083.90185629716143012</ymin>
-      <xmax>-8030108.04677884466946125</xmax>
-      <ymax>4791661.42667312547564507</ymax>
+      <xmin>-9742107.49453773163259029</xmin>
+      <ymin>3438840.49773442000150681</ymin>
+      <xmax>-7848556.51557298563420773</xmax>
+      <ymax>4527865.49884521216154099</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -1266,8 +1269,14 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Honolulu_Inset_SEC20150325135234492"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Kansas_City_TAC20150325135204093"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="apt_rwy20140806222856760"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_G_400020150401125700432"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_land_scale_rank20150401125700791"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_H_300020150401125700445"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wichita_SEC20150325135229680"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Anchorage_TAC20150325135205462"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_geography_marine_polys20150401125700548"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_playas20150401125700882"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_graticules_120150401125700609"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phoenix_SEC20150325135231715"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="apt_rwy20140806222815657"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Minneapolis_St_Paul_TAC20150325135203605"/>
@@ -1276,15 +1285,20 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_coastline20150401125700517"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="apt_rwy20140806222940041"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="pja_pja120140806223228927"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_geography_regions_elevation_points20150401125700559"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="mefTerrain20141222134900603"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="__500__AGL_copy20141104151809686"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Halifax_SEC20150325135234791"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_glaciated_areas20150401125700596"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="New_Orleans_TAC20150325135203503"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CG_18_WAC20150325135318181"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_ocean20150401125700871"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_land_ocean_label_points20150401125700759"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="St_Louis_TAC20150325135202349"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_rivers_lake_centerlines20150401125700928"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Houston_SEC20150325135234356"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="apt_rwy20140806222649459"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_graticules_1520150401125700657"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="El_Paso_SEC20150325135235331"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Miami_SEC20150325135232543"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CE_15_WAC20150325135319599"/>
@@ -1296,14 +1310,18 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Atlanta_TAC20150325135205368"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="halfDegreeGraticulesAsLines20150302134003168"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CC_8_WAC20150325135321619"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_D_700020150401125700379"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Denver_SEC20150325135235752"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Detroit_SEC20150325135235605"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="class_b20131205212005412"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_L_020150401125700497"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_C_800020150401125700370"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ketchikan_SEC20150325135233787"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="class_c20131205212005456"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="__500__AGL_copy20140815155048276"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Twin_Cities_SEC20150325135230470"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Billings_SEC20150325135237128"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_geography_regions_polys20150401125700583"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Charlotte_TAC20150325135205064"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CJ_27_WAC20150325135315465"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phoenix_TAC20150325135203095"/>
@@ -1325,6 +1343,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Kodiak_Inset20150329215250250"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Cape_Lisburne_SEC20150325135236849"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CG_21_WAC20150325135317327"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_land_ocean_seams20150401125700767"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="narc20150325133840818"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CD_11_WAC20150325135320772"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Kodiak_SEC20150325135233516"/>
@@ -1335,27 +1354,41 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CJ_26_WAC20150325135315895"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Mariana_Islands_Inset_SEC20150325135232951"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Puerto_Rico_VI_TAC20150325135202902"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_F_500020150401125700419"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Salt_Lake_City_SEC20150325135231443"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_geographic_lines20150401125700531"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Juneau_SEC20150325135234074"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CF_16_WAC20150325135319324"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_I_200020150401125700457"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Cleveland_TAC20150325135204760"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_wgs84_bounding_box20150401125700959"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_graticules_1020150401125700635"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="apt_apt20140815143148342"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CE_12_WAC20150325135320192"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_antarctic_ice_shelves_polys20150401125700303"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Seward_SEC20150325135230742"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Albuquerque_SEC20150325135237696"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="porc20150325133840859"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_rivers_lake_centerlines_scale_rank20150401125700917"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_lakes_europe20150401125700695"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_ocean_scale_rank20150401125700860"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Jacksonville_Inset20150329215250354"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_lakes_historic20150401125700707"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Pittsburgh_TAC20150325135202997"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CE_13_WAC20150325135319887"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_land20150401125700803"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CH_25_WAC20150325135316192"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_minor_islands_label_points20150401125700826"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Dutch_Harbor_Inset20150329215250388"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Cold_Bay_SEC20150325135236176"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Los_Angeles_SEC20150325135233092"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="class_d20131205212005476"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_lakes_north_america20150401125700719"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Boston_TAC20150325135205175"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_geography_regions_points20150401125700571"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_rivers_north_america20150401125700944"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_rivers_europe20150401125700905"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_minor_islands_coastline20150401125700814"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="airspace20150320130912778"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="nav_nav120140806223035684"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Chicago_SEC20150325135236449"/>
@@ -1376,19 +1409,23 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Brownsville_SEC20150325135236993"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Norfolk_Inset20150329215250142"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="San_Francisco_SEC20150325135231015"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_E_600020150401125700406"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Chicago_TAC20150325135204961"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="St_Louis_SEC20150325135230611"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Philadelphia_TAC20150325135203199"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Green_Bay_SEC20150325135234931"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_B_900020150401125700357"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CF_19_WAC20150325135318469"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_minor_islands20150401125700844"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Hawaiian_Islands_SEC20150325135234653"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Western_Aleutian_Islands_East_SEC20150325135230205"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_K_20020150401125700482"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Memphis_SEC20150325135232688"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Orlando_TAC20150325135203308"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Bethel_SEC20150325135237266"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Klamath_Falls_SEC20150325135233656"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Montreal_SEC20150325135232408"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_graticules_2020150401125700672"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Las_Vegas_TAC20150325135204003"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Seattle_SEC20150325135230879"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CC_9_WAC20150325135321336"/>
@@ -1396,14 +1433,20 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Atlanta_SEC20150325135237405"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Fairbanks_SEC20150325135235200"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Fairbanks_TAC20150325135204272"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_J_100020150401125700470"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="apt_apt20140815144904818"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_graticules_3020150401125700683"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150326092049146"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Nome_SEC20150325135231986"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Great_Falls_SEC20150325135235067"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CF_17_WAC20150325135319032"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="watrs20150325133840900"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CG_20_WAC20150325135317614"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_antarctic_ice_shelves_lines20150401125700280"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CH_22_WAC20150325135317047"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_graticules_520150401125700624"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="NEXRAD_BASE_REFLECT_CURRENT20150216201857130"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_lakes_pluvial20150401125700731"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CG_19_WAC20150325135317896"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="mergedTfrs20140418162128320"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Seattle_TAC20150325135202457"/>
@@ -1411,14 +1454,18 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Houston_TAC20150325135204183"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Pribilof_Islands_Inset20150329215250055"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Point_Barrow_SEC20150325135231584"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150401140129415"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Detroit_TAC20150325135204365"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="New_Orleans_SEC20150325135232265"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_A_1000020150401125700341"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_reefs20150401125700894"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CD_12_WAC20150325135320480"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="McGrath_SEC20150325135232822"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Dallas_Ft_Worth_SEC20150325135236026"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="onefDegreeGraticulesAsLines20150302134040269"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Miami_TAC20150325135203706"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CH_24_WAC20150325135316470"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150103114321887"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <visibility-presets/>
@@ -1789,6 +1836,7 @@
       <item>ne_10m_rivers_lake_centerlines20150401125700928</item>
       <item>ne_10m_rivers_north_america20150401125700944</item>
       <item>ne_10m_wgs84_bounding_box20150401125700959</item>
+      <item>OpenLayers_plugin_layer20150401140129415</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -2018,7 +2066,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Airways">
+    <legendgroup open="false" checked="Qt::PartiallyChecked" name="Airways">
       <legendgroup open="true" checked="Qt::PartiallyChecked" name="Military Training Routes">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="mtr_mtr5" showFeatureCount="0">
           <filegroup open="true" hidden="false">
@@ -2097,7 +2145,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Miscellaneous">
+    <legendgroup open="false" checked="Qt::PartiallyChecked" name="Miscellaneous">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="com_com" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="com_com20140817233122759" visible="0"/>
@@ -2168,7 +2216,7 @@
         </legendlayer>
       </legendgroup>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Checked" name="Obstacles">
+    <legendgroup open="false" checked="Qt::Checked" name="Obstacles">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="> 500' AGL" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="obstacle_obstacle20140806223050930" visible="1"/>
@@ -3428,15 +3476,10 @@
         </legendlayer>
       </legendgroup>
       <legendgroup open="true" checked="Qt::PartiallyChecked" name="Maps">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Hybrid" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150326092049146" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Graticules">
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="onefDegreeGraticulesAsLines" showFeatureCount="0">
+        <legendgroup open="false" checked="Qt::Unchecked" name="Graticules">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="onefDegreeGraticulesAsLines" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="onefDegreeGraticulesAsLines20150302134040269" visible="1"/>
+              <legendlayerfile isInOverview="0" layerid="onefDegreeGraticulesAsLines20150302134040269" visible="0"/>
             </filegroup>
           </legendlayer>
           <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="halfDegreeGraticulesAsPolygons" showFeatureCount="0">
@@ -3444,20 +3487,30 @@
               <legendlayerfile isInOverview="0" layerid="halfDegreeGraticulesAsPolygons20141212153318682" visible="0"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="halfDegreeGraticulesAsLines" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="halfDegreeGraticulesAsLines" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="halfDegreeGraticulesAsLines20150302134003168" visible="1"/>
+              <legendlayerfile isInOverview="0" layerid="halfDegreeGraticulesAsLines20150302134003168" visible="0"/>
             </filegroup>
           </legendlayer>
         </legendgroup>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Google Streets" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150401140129415" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Hybrid" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150326092049146" visible="0"/>
+          </filegroup>
+        </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OCM Landscape" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150103114321887" visible="0"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::PartiallyChecked" name="Natural Earth">
-        <legendgroup open="true" checked="Qt::Unchecked" name="Unused">
+      <legendgroup open="true" checked="Qt::Unchecked" name="Natural Earth">
+        <legendgroup open="false" checked="Qt::Unchecked" name="Unused">
           <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ne_10m_antarctic_ice_shelves_lines" showFeatureCount="0">
             <filegroup open="true" hidden="false">
               <legendlayerfile isInOverview="0" layerid="ne_10m_antarctic_ice_shelves_lines20150401125700280" visible="0"/>
@@ -3659,34 +3712,34 @@
             </filegroup>
           </legendlayer>
         </legendgroup>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ne_10m_rivers_north_america" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ne_10m_rivers_north_america" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="ne_10m_rivers_north_america20150401125700944" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="ne_10m_rivers_north_america20150401125700944" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ne_10m_rivers_europe" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ne_10m_rivers_europe" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="ne_10m_rivers_europe20150401125700905" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="ne_10m_rivers_europe20150401125700905" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ne_10m_lakes_north_america" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ne_10m_lakes_north_america" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="ne_10m_lakes_north_america20150401125700719" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="ne_10m_lakes_north_america20150401125700719" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ne_10m_minor_islands" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ne_10m_minor_islands" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="ne_10m_minor_islands20150401125700844" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="ne_10m_minor_islands20150401125700844" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ne_10m_lakes" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ne_10m_lakes" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="ne_10m_lakes20150401125700743" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="ne_10m_lakes20150401125700743" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ne_10m_coastline" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ne_10m_coastline" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="ne_10m_coastline20150401125700517" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="ne_10m_coastline20150401125700517" visible="0"/>
           </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ne_10m_land" showFeatureCount="0">
@@ -3694,9 +3747,9 @@
             <legendlayerfile isInOverview="0" layerid="ne_10m_land20150401125700803" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ne_10m_ocean" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ne_10m_ocean" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="ne_10m_ocean20150401125700871" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="ne_10m_ocean20150401125700871" visible="0"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
@@ -4868,7 +4921,7 @@
     </Composition>
     <Atlas hideCoverage="false" coverageLayer="" singleFile="false" filenamePattern="'output_'||$feature" enabled="true" filterFeatures="false" sortFeatures="false"/>
   </Composer>
-  <projectlayers layercount="365">
+  <projectlayers layercount="366">
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Albuquerque_SEC20150325135237696</id>
       <datasource>../mergedCharts/warpedRasters/sectional/Albuquerque_SEC.tif</datasource>
@@ -16179,6 +16232,31 @@
         <property key="ol_layer_type" value="Google Hybrid"/>
       </customproperties>
     </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
+      <id>OpenLayers_plugin_layer20150401140129415</id>
+      <datasource>.</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Google Streets</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="ol_layer_type" value="Google Streets"/>
+      </customproperties>
+    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Orlando_TAC20150325135203308</id>
       <datasource>../mergedCharts/warpedRasters/tac/Orlando_TAC.tif</datasource>
@@ -22314,7 +22392,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>airspace20150320130912778</id>
       <datasource>dbname='./data/databases/SpecialUseAirspace.db' table="airspace" (geometry) sql=</datasource>
       <title></title>
@@ -22815,7 +22893,7 @@
         <property key="labeling/namedStyle" value="Normal"/>
         <property key="labeling/obstacle" value="true"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
-        <property key="labeling/placement" value="4"/>
+        <property key="labeling/placement" value="0"/>
         <property key="labeling/placementFlags" value="0"/>
         <property key="labeling/plussign" value="false"/>
         <property key="labeling/preserveRotation" value="true"/>

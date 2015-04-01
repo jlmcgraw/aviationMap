@@ -8,9 +8,14 @@ Everything I can find freely online is in here (METARS, SIGMETS, Controlled and 
 
 To get started
 ==============
-execute "freshenLocalData.sh" to download the databases, shapes etc from Dropbox and extract locally
+1. Execute "freshenLocalData.sh" to download the databases, shapes etc from Dropbox and extract locally
+2. Open "Aviation map.qgs" with QGIS (http://qgis.org/)
+3. Explore all of the layers, there are lots of them.  Feel free to submit changes, it's not perfect by any means.
 
-open "Aviation map.qgs" with QGIS (http://qgis.org/)
+Get up to date METARs, TFRs etc.  with https://github.com/jlmcgraw/aviationMapMetarSigmetsAndTFRs
+
+Create the seamless Sectionals, Enroute, TAC etc. charts with https://github.com/jlmcgraw/aviationCharts
+
 
 Screenshots
 ===========
