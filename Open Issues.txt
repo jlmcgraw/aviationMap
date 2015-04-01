@@ -1,0 +1,44 @@
+To Do
+
+	Tower Name/Frequency in airport info
+
+	Longest runway in airport info
+		How to choose from joins that return multiple rows?
+			-Perhaps this is possible via "relations"
+
+	Prioritize airport information display on some metric
+		Controlled
+		Number of ops
+
+	Proper per-segment information for airways (enroute altitudes etc)
+
+	Can you resize text so label is small but visible up to maximum size?
+
+	Put in a runway for airports that don't have lat/lon of theirs
+
+	VOR background
+		Works except for rotation of numbers
+
+	RCO info on VORs
+		There but needs to be filtered a bit
+
+	MSA for grid area (Have MORA but that's higher)
+
+	Some topo information
+
+	Cite and Acknowledge if used
+		SRTM
+			ACKNOWLEDGMENT AND CITATION
+
+			We kindly ask  any users to  cite this data  in any published  material produced
+			using this data,  and if possible  link web pages  to the CIAT-CSI  SRTM website
+			(http://srtm.csi.cgiar.org).
+
+			Citations should be made as follows:
+
+			Jarvis A., H.I. Reuter, A.  Nelson, E. Guevara, 2008, Hole-filled  seamless SRTM
+			data V4, International  Centre for Tropical  Agriculture (CIAT), available  from
+			http://srtm.csi.cgiar.org.
+
+Done
+	Label the end of each runway
