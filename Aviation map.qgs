@@ -147,20 +147,20 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Checked" name="NavAids">
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="NavAids">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="nav_nav120140806223035684" name="nav_nav1">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Airways">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Airways">
       <customproperties/>
-      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Military Training Routes">
+      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Military Training Routes">
         <customproperties/>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="mtr_mtr520150401101737005" name="mtr_mtr5">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="mtr20150331204944020" name="mtr">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="mtr20150331204944020" name="mtr">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="MTR_MTR120140819084111469" name="MTR_MTR1">
@@ -204,8 +204,11 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Miscellaneous">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Miscellaneous">
       <customproperties/>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="artccGeometry20150403123732937" name="ARTCC Radar sites">
+        <customproperties/>
+      </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="com_com20140817233122759" name="com_com">
         <customproperties/>
       </layer-tree-layer>
@@ -1075,6 +1078,9 @@
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150402052226855" name="Stamen Terrain-USA/OSM">
+          <customproperties/>
+        </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenLayers_plugin_layer20150401140129415" name="Google Streets">
           <customproperties/>
         </layer-tree-layer>
@@ -1245,10 +1251,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-9742107.49453773163259029</xmin>
-      <ymin>3438840.49773442000150681</ymin>
-      <xmax>-7848556.51557298563420773</xmax>
-      <ymax>4527865.49884521216154099</ymax>
+      <xmin>-9690574.23025361075997353</xmin>
+      <ymin>3983884.01204616809263825</ymin>
+      <xmax>-8440909.1566181443631649</xmax>
+      <ymax>4283650.81987261213362217</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -1295,6 +1301,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_ocean20150401125700871"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_land_ocean_label_points20150401125700759"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="St_Louis_TAC20150325135202349"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="awy_awysegments20140817233208643"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_rivers_lake_centerlines20150401125700928"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Houston_SEC20150325135234356"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="apt_rwy20140806222649459"/>
@@ -1346,7 +1353,9 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_land_ocean_seams20150401125700767"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="narc20150325133840818"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CD_11_WAC20150325135320772"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="mtr_mtr520150401101737005"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Kodiak_SEC20150325135233516"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="artccGeometry20150403123732937"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CH_23_WAC20150325135316756"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Whitehorse_SEC20150325135229938"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="apt_rwy20140806222730143"/>
@@ -1354,6 +1363,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CJ_26_WAC20150325135315895"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Mariana_Islands_Inset_SEC20150325135232951"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Puerto_Rico_VI_TAC20150325135202902"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150402052216309"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_F_500020150401125700419"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Salt_Lake_City_SEC20150325135231443"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_geographic_lines20150401125700531"/>
@@ -1410,6 +1420,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Norfolk_Inset20150329215250142"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="San_Francisco_SEC20150325135231015"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_E_600020150401125700406"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="artccGeometry20150403120712803"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Chicago_TAC20150325135204961"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="St_Louis_SEC20150325135230611"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Philadelphia_TAC20150325135203199"/>
@@ -1426,6 +1437,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Klamath_Falls_SEC20150325135233656"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Montreal_SEC20150325135232408"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_graticules_2020150401125700672"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150402052226855"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Las_Vegas_TAC20150325135204003"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Seattle_SEC20150325135230879"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CC_9_WAC20150325135321336"/>
@@ -1473,6 +1485,9 @@
     <custom-order enabled="0">
       <item>metars_cache20150211205853387</item>
       <item>metars_cache20140418162447642</item>
+      <item>airports20150401122020030</item>
+      <item>navaids20150401122020079</item>
+      <item>runways20150401122020094</item>
       <item>ILS_ILS120140817215713906</item>
       <item>ILS_ILS220140817215714711</item>
       <item>ILS_ILS320140817215714764</item>
@@ -1780,14 +1795,13 @@
       <item>CJ_26_WAC20150325135315895</item>
       <item>CJ_27_WAC20150325135315465</item>
       <item>U_S__VFR_Wall_Planning_Chart_420150325135503263</item>
-      <item>OpenLayers_plugin_layer20150326092049146</item>
+      <item>OpenLayers_plugin_layer20150402052226855</item>
       <item>onefDegreeGraticulesAsLines20150302134040269</item>
       <item>halfDegreeGraticulesAsPolygons20141212153318682</item>
       <item>halfDegreeGraticulesAsLines20150302134003168</item>
+      <item>OpenLayers_plugin_layer20150401140129415</item>
+      <item>OpenLayers_plugin_layer20150326092049146</item>
       <item>OpenLayers_plugin_layer20150103114321887</item>
-      <item>airports20150401122020030</item>
-      <item>navaids20150401122020079</item>
-      <item>runways20150401122020094</item>
       <item>ne_10m_antarctic_ice_shelves_lines20150401125700280</item>
       <item>ne_10m_antarctic_ice_shelves_polys20150401125700303</item>
       <item>ne_10m_bathymetry_A_1000020150401125700341</item>
@@ -1802,7 +1816,6 @@
       <item>ne_10m_bathymetry_J_100020150401125700470</item>
       <item>ne_10m_bathymetry_K_20020150401125700482</item>
       <item>ne_10m_bathymetry_L_020150401125700497</item>
-      <item>ne_10m_coastline20150401125700517</item>
       <item>ne_10m_geographic_lines20150401125700531</item>
       <item>ne_10m_geography_marine_polys20150401125700548</item>
       <item>ne_10m_geography_regions_elevation_points20150401125700559</item>
@@ -1817,26 +1830,27 @@
       <item>ne_10m_graticules_3020150401125700683</item>
       <item>ne_10m_lakes_europe20150401125700695</item>
       <item>ne_10m_lakes_historic20150401125700707</item>
-      <item>ne_10m_lakes_north_america20150401125700719</item>
       <item>ne_10m_lakes_pluvial20150401125700731</item>
-      <item>ne_10m_lakes20150401125700743</item>
       <item>ne_10m_land_ocean_label_points20150401125700759</item>
       <item>ne_10m_land_ocean_seams20150401125700767</item>
       <item>ne_10m_land_scale_rank20150401125700791</item>
-      <item>ne_10m_land20150401125700803</item>
       <item>ne_10m_minor_islands_coastline20150401125700814</item>
       <item>ne_10m_minor_islands_label_points20150401125700826</item>
-      <item>ne_10m_minor_islands20150401125700844</item>
       <item>ne_10m_ocean_scale_rank20150401125700860</item>
-      <item>ne_10m_ocean20150401125700871</item>
       <item>ne_10m_playas20150401125700882</item>
       <item>ne_10m_reefs20150401125700894</item>
-      <item>ne_10m_rivers_europe20150401125700905</item>
       <item>ne_10m_rivers_lake_centerlines_scale_rank20150401125700917</item>
       <item>ne_10m_rivers_lake_centerlines20150401125700928</item>
-      <item>ne_10m_rivers_north_america20150401125700944</item>
       <item>ne_10m_wgs84_bounding_box20150401125700959</item>
-      <item>OpenLayers_plugin_layer20150401140129415</item>
+      <item>ne_10m_rivers_north_america20150401125700944</item>
+      <item>ne_10m_rivers_europe20150401125700905</item>
+      <item>ne_10m_lakes_north_america20150401125700719</item>
+      <item>ne_10m_minor_islands20150401125700844</item>
+      <item>ne_10m_lakes20150401125700743</item>
+      <item>ne_10m_coastline20150401125700517</item>
+      <item>ne_10m_land20150401125700803</item>
+      <item>ne_10m_ocean20150401125700871</item>
+      <item>artccGeometry20150403123732937</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -2059,23 +2073,23 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Checked" name="NavAids">
+    <legendgroup open="true" checked="Qt::Checked" name="NavAids">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="nav_nav1" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="nav_nav120140806223035684" visible="1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::PartiallyChecked" name="Airways">
-      <legendgroup open="true" checked="Qt::PartiallyChecked" name="Military Training Routes">
+    <legendgroup open="true" checked="Qt::Unchecked" name="Airways">
+      <legendgroup open="false" checked="Qt::Unchecked" name="Military Training Routes">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="mtr_mtr5" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="mtr_mtr520150401101737005" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="mtr" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="mtr" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="mtr20150331204944020" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="mtr20150331204944020" visible="0"/>
           </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="MTR_MTR1" showFeatureCount="0">
@@ -2145,7 +2159,12 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::PartiallyChecked" name="Miscellaneous">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Miscellaneous">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ARTCC Radar sites" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="artccGeometry20150403123732937" visible="1"/>
+        </filegroup>
+      </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="com_com" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="com_com20140817233122759" visible="0"/>
@@ -3493,6 +3512,11 @@
             </filegroup>
           </legendlayer>
         </legendgroup>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Stamen Terrain-USA/OSM" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150402052226855" visible="0"/>
+          </filegroup>
+        </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Google Streets" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150401140129415" visible="1"/>
@@ -4906,7 +4930,7 @@
             </customproperties>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="34.69" page="1" id="" lastValidViewScaleFactor="3.0237" positionMode="0" positionLock="false" x="254.951" y="34.69" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="25031.6" outlineWidth="0.3" excludeFromExports="0" uuid="{8c7f8c8d-e4ed-4188-8f49-b368d4f30eda}" height="81201.4" itemRotation="0" frame="false" pagex="254.951">
+        <ComposerItem pagey="34.69" page="1" id="" lastValidViewScaleFactor="3.0237" positionMode="0" positionLock="false" x="254.951" y="34.69" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="35031.6" outlineWidth="0.3" excludeFromExports="0" uuid="{8c7f8c8d-e4ed-4188-8f49-b368d4f30eda}" height="136196" itemRotation="0" frame="false" pagex="254.951">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
         </ComposerItem>
@@ -4921,7 +4945,7 @@
     </Composition>
     <Atlas hideCoverage="false" coverageLayer="" singleFile="false" filenamePattern="'output_'||$feature" enabled="true" filterFeatures="false" sortFeatures="false"/>
   </Composer>
-  <projectlayers layercount="366">
+  <projectlayers layercount="368">
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Albuquerque_SEC20150325135237696</id>
       <datasource>../mergedCharts/warpedRasters/sectional/Albuquerque_SEC.tif</datasource>
@@ -16257,6 +16281,31 @@
         <property key="ol_layer_type" value="Google Streets"/>
       </customproperties>
     </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
+      <id>OpenLayers_plugin_layer20150402052226855</id>
+      <datasource>.</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Stamen Terrain-USA/OSM</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="ol_layer_type" value="Stamen Terrain-USA/OSM"/>
+      </customproperties>
+    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Orlando_TAC20150325135203308</id>
       <datasource>../mergedCharts/warpedRasters/tac/Orlando_TAC.tif</datasource>
@@ -22394,7 +22443,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>airspace20150320130912778</id>
-      <datasource>dbname='./data/databases/SpecialUseAirspace.db' table="airspace" (geometry) sql=</datasource>
+      <datasource>dbname='./data/databases/SpecialUseAirspace.sqlite' table="airspace" (geometry) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -35027,6 +35076,259 @@ AND
         </edittype>
       </edittypes>
     </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>artccGeometry20150403123732937</id>
+      <datasource>file:./data/artccGeometry.csv?type=csv&amp;xField=LONGITUDE&amp;yField=LATITUDE&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ARTCC Radar sites</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">delimitedtext</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="IDENT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LONGITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LATITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" type="marker" name="0">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./data/svg/radar4a.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="#ffffff"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="5"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="area"/>
+      </renderer-v2>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitMaxScale" value="0"/>
+        <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fontBold" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="Sans Serif"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="9"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="0"/>
+        <property key="labeling/placementFlags" value="0"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>IDENT</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="Sans Serif"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <editform>.</editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform>.</annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="IDENT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LONGITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LATITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+    </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="500000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>awos_awos120140806223020929</id>
       <datasource>dbname='./data/databases/spatial56day.db' table="awos_awos1" (geometry) sql=</datasource>
@@ -45373,6 +45675,25 @@ AND
             </layer>
           </symbol>
           <symbol alpha="1" type="marker" name="6">
+            <layer pass="1" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="angle_expression" v="CASE WHEN right(magnetic_variation_degrees_00_99, 1) = 'W' THEN concat('-', substr(trim(magnetic_variation_degrees_00_99), 1, 2)) ELSE substr(trim(magnetic_variation_degrees_00_99), 1, 2) END"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./data/svg/Jess makes a terrible compass rose.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="#000000"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="35000"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
             <layer pass="0" class="SvgMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
@@ -45386,17 +45707,19 @@ AND
               <prop k="outline_width_map_unit_scale" v="0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="area"/>
-              <prop k="size" v="4"/>
+              <prop k="size" v="5"/>
               <prop k="size_map_unit_scale" v="0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
+          </symbol>
+          <symbol alpha="1" type="marker" name="7">
             <layer pass="1" class="SvgMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="angle_expression" v="CASE WHEN right(magnetic_variation_degrees_00_99, 1) = 'W' THEN concat('-', substr(trim(magnetic_variation_degrees_00_99), 1, 2)) ELSE substr(trim(magnetic_variation_degrees_00_99), 1, 2) END"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./data/svg/vor1.svg"/>
+              <prop k="name" v="./data/svg/Jess makes a terrible compass rose.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -45405,19 +45728,17 @@ AND
               <prop k="outline_width_map_unit_scale" v="0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="area"/>
-              <prop k="size" v="25000"/>
+              <prop k="size" v="35000"/>
               <prop k="size_map_unit_scale" v="0,0"/>
               <prop k="size_unit" v="MapUnit"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
-          </symbol>
-          <symbol alpha="1" type="marker" name="7">
             <layer pass="0" class="SvgMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="./data/svg/vor-dme1.svg"/>
-              <prop k="offset" v="0,0"/>
+              <prop k="offset" v="-0.2,-0.2"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="#000000"/>
@@ -45428,25 +45749,6 @@ AND
               <prop k="size" v="4"/>
               <prop k="size_map_unit_scale" v="0,0"/>
               <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-            <layer pass="1" class="SvgMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="angle_expression" v="CASE WHEN right(magnetic_variation_degrees_00_99, 1) = 'W' THEN concat('-', substr(trim(magnetic_variation_degrees_00_99), 1, 2)) ELSE substr(trim(magnetic_variation_degrees_00_99), 1, 2) END"/>
-              <prop k="color" v="#000000"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./data/svg/Compass rose.svg"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="#000000"/>
-              <prop k="outline_width" v="1"/>
-              <prop k="outline_width_map_unit_scale" v="0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="area"/>
-              <prop k="size" v="25000"/>
-              <prop k="size_map_unit_scale" v="0,0"/>
-              <prop k="size_unit" v="MapUnit"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
@@ -45456,7 +45758,7 @@ AND
               <prop k="angle_expression" v="CASE WHEN right(magnetic_variation_degrees_00_99, 1) = 'W' THEN concat('-', substr(trim(magnetic_variation_degrees_00_99), 1, 2)) ELSE substr(trim(magnetic_variation_degrees_00_99), 1, 2) END"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./data/svg/Compass rose.svg"/>
+              <prop k="name" v="./data/svg/Jess makes a terrible compass rose.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -45465,9 +45767,9 @@ AND
               <prop k="outline_width_map_unit_scale" v="0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="area"/>
-              <prop k="size" v="5"/>
+              <prop k="size" v="35000"/>
               <prop k="size_map_unit_scale" v="0,0"/>
-              <prop k="size_unit" v="MM"/>
+              <prop k="size_unit" v="MapUnit"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
             <layer pass="0" class="SvgMarker" locked="0">
@@ -45475,7 +45777,7 @@ AND
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="./data/svg/vortac1.svg"/>
-              <prop k="offset" v="-0.1,0"/>
+              <prop k="offset" v="0.1,0.4"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="#000000"/>
