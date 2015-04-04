@@ -16,6 +16,9 @@ Get up to date METARs, TFRs etc.  with https://github.com/jlmcgraw/aviationMapMe
 
 Create the seamless Sectionals, Enroute, TAC etc. charts with https://github.com/jlmcgraw/aviationCharts
 
+World (.wld) files are available for all instrument plates and airport diagrams from cycle 1503.  Convert the PDFs to 300 DPI 
+PNGs and place in the same directory and remove the airport name preamble from the .wld file
+
 
 Screenshots
 ===========
