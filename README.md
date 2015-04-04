@@ -20,6 +20,10 @@ Create the seamless Sectionals, Enroute, TAC etc. charts with https://github.com
 Screenshots
 ===========
 
+![Airspaces](https://raw.github.com/jlmcgraw/aviationMap/master/screenshots/Screenshot%20-%2004042015%20-%2010:38:17%20AM.png)
+
+![Seamless VFR and IFR charts](https://raw.github.com/jlmcgraw/aviationMap/master/screenshots/Screenshot%20-%2004042015%20-%2010:40:26%20AM.png)
+
 ![CAE and nearby airspaces and Military Traning Routes](https://raw.github.com/jlmcgraw/aviationMap/master/screenshots/Screenshot%20-%2004012015%20-%2002:05:53%20PM.png)
 
 ![BOS with Lighthouse Visual overlaid](https://raw.github.com/jlmcgraw/aviationMap/master/screenshots/BOS%20with%20Lighthouse%20Visual%20overlaid.png)

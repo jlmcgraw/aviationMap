@@ -206,7 +206,7 @@
     </layer-tree-group>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Miscellaneous">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="artccGeometry20150403123732937" name="ARTCC Radar sites">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="artccGeometry20150403123732937" name="ARTCC Radar sites">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="com_com20140817233122759" name="com_com">
@@ -233,21 +233,21 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Fixes">
+      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Fixes">
         <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="FIX_FIX120140819090337324" name="FIX_FIX1">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="FIX_FIX120140819090337324" name="FIX_FIX1">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="FIX_FIX220140819090337778" name="FIX_FIX2">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="FIX_FIX220140819090337778" name="FIX_FIX2">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="FIX_FIX320140819090337853" name="FIX_FIX3">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="FIX_FIX320140819090337853" name="FIX_FIX3">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="FIX_FIX420140819090337877" name="FIX_FIX4">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="FIX_FIX420140819090337877" name="FIX_FIX4">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="FIX_FIX520140819090337896" name="FIX_FIX5">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="FIX_FIX520140819090337896" name="FIX_FIX5">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="fix_fix120140819090338021" name="fix_fix1">
@@ -356,7 +356,7 @@
           </layer-tree-layer>
         </layer-tree-group>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Charts">
+      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Charts">
         <customproperties/>
         <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Enroute">
           <customproperties/>
@@ -622,105 +622,105 @@
             </layer-tree-layer>
           </layer-tree-group>
         </layer-tree-group>
-        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="TAC">
+        <layer-tree-group expanded="0" checked="Qt::Checked" name="TAC">
           <customproperties/>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Anchorage_TAC20150325135205462" name="Anchorage_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Anchorage_TAC20150325135205462" name="Anchorage_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Atlanta_TAC20150325135205368" name="Atlanta_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Atlanta_TAC20150325135205368" name="Atlanta_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Baltimore_Washington_TAC20150325135205273" name="Baltimore-Washington_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Baltimore_Washington_TAC20150325135205273" name="Baltimore-Washington_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Boston_TAC20150325135205175" name="Boston_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Boston_TAC20150325135205175" name="Boston_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Charlotte_TAC20150325135205064" name="Charlotte_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Charlotte_TAC20150325135205064" name="Charlotte_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Chicago_TAC20150325135204961" name="Chicago_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Chicago_TAC20150325135204961" name="Chicago_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Cincinnati_TAC20150325135204852" name="Cincinnati_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Cincinnati_TAC20150325135204852" name="Cincinnati_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Cleveland_TAC20150325135204760" name="Cleveland_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Cleveland_TAC20150325135204760" name="Cleveland_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Colorado_Springs_TAC20150325135204668" name="Colorado_Springs_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Colorado_Springs_TAC20150325135204668" name="Colorado_Springs_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Dallas_Ft_Worth_TAC20150325135204560" name="Dallas-Ft_Worth_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Dallas_Ft_Worth_TAC20150325135204560" name="Dallas-Ft_Worth_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Denver_TAC20150325135204470" name="Denver_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Denver_TAC20150325135204470" name="Denver_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Detroit_TAC20150325135204365" name="Detroit_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Detroit_TAC20150325135204365" name="Detroit_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Fairbanks_TAC20150325135204272" name="Fairbanks_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Fairbanks_TAC20150325135204272" name="Fairbanks_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Houston_TAC20150325135204183" name="Houston_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Houston_TAC20150325135204183" name="Houston_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Kansas_City_TAC20150325135204093" name="Kansas_City_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Kansas_City_TAC20150325135204093" name="Kansas_City_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Las_Vegas_TAC20150325135204003" name="Las_Vegas_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Las_Vegas_TAC20150325135204003" name="Las_Vegas_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Los_Angeles_TAC20150325135203909" name="Los_Angeles_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Los_Angeles_TAC20150325135203909" name="Los_Angeles_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Memphis_TAC20150325135203806" name="Memphis_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Memphis_TAC20150325135203806" name="Memphis_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Miami_TAC20150325135203706" name="Miami_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Miami_TAC20150325135203706" name="Miami_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Minneapolis_St_Paul_TAC20150325135203605" name="Minneapolis-St_Paul_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Minneapolis_St_Paul_TAC20150325135203605" name="Minneapolis-St_Paul_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="New_Orleans_TAC20150325135203503" name="New_Orleans_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="New_Orleans_TAC20150325135203503" name="New_Orleans_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="New_York_TAC20150325135203411" name="New_York_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="New_York_TAC20150325135203411" name="New_York_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Orlando_TAC20150325135203308" name="Orlando_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Orlando_TAC20150325135203308" name="Orlando_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Philadelphia_TAC20150325135203199" name="Philadelphia_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Philadelphia_TAC20150325135203199" name="Philadelphia_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Phoenix_TAC20150325135203095" name="Phoenix_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Phoenix_TAC20150325135203095" name="Phoenix_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Pittsburgh_TAC20150325135202997" name="Pittsburgh_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Pittsburgh_TAC20150325135202997" name="Pittsburgh_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Puerto_Rico_VI_TAC20150325135202902" name="Puerto_Rico-VI_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Puerto_Rico_VI_TAC20150325135202902" name="Puerto_Rico-VI_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Salt_Lake_City_TAC20150325135202782" name="Salt_Lake_City_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Salt_Lake_City_TAC20150325135202782" name="Salt_Lake_City_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="San_Diego_TAC20150325135202674" name="San_Diego_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="San_Diego_TAC20150325135202674" name="San_Diego_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="San_Francisco_TAC20150325135202562" name="San_Francisco_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="San_Francisco_TAC20150325135202562" name="San_Francisco_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Seattle_TAC20150325135202457" name="Seattle_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Seattle_TAC20150325135202457" name="Seattle_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="St_Louis_TAC20150325135202349" name="St_Louis_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="St_Louis_TAC20150325135202349" name="St_Louis_TAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Tampa_TAC20150325135202157" name="Tampa_TAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Tampa_TAC20150325135202157" name="Tampa_TAC">
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
@@ -790,281 +790,281 @@
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Sectionals">
+        <layer-tree-group expanded="0" checked="Qt::Checked" name="Sectionals">
           <customproperties/>
-          <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Insets">
+          <layer-tree-group expanded="1" checked="Qt::Checked" name="Insets">
             <customproperties/>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Dutch_Harbor_Inset20150329215250388" name="Dutch_Harbor_Inset">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="Dutch_Harbor_Inset20150329215250388" name="Dutch_Harbor_Inset">
               <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Jacksonville_Inset20150329215250354" name="Jacksonville_Inset">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="Jacksonville_Inset20150329215250354" name="Jacksonville_Inset">
               <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Juneau_Inset20150329215250320" name="Juneau_Inset">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="Juneau_Inset20150329215250320" name="Juneau_Inset">
               <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Ketchikan_Inset20150329215250285" name="Ketchikan_Inset">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="Ketchikan_Inset20150329215250285" name="Ketchikan_Inset">
               <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Kodiak_Inset20150329215250250" name="Kodiak_Inset">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="Kodiak_Inset20150329215250250" name="Kodiak_Inset">
               <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Norfolk_Inset20150329215250142" name="Norfolk_Inset">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="Norfolk_Inset20150329215250142" name="Norfolk_Inset">
               <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Pribilof_Islands_Inset20150329215250055" name="Pribilof_Islands_Inset">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="Pribilof_Islands_Inset20150329215250055" name="Pribilof_Islands_Inset">
               <customproperties/>
             </layer-tree-layer>
           </layer-tree-group>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Albuquerque_SEC20150325135237696" name="Albuquerque_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Albuquerque_SEC20150325135237696" name="Albuquerque_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Anchorage_SEC20150325135237559" name="Anchorage_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Anchorage_SEC20150325135237559" name="Anchorage_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Atlanta_SEC20150325135237405" name="Atlanta_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Atlanta_SEC20150325135237405" name="Atlanta_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Bethel_SEC20150325135237266" name="Bethel_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Bethel_SEC20150325135237266" name="Bethel_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Billings_SEC20150325135237128" name="Billings_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Billings_SEC20150325135237128" name="Billings_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Brownsville_SEC20150325135236993" name="Brownsville_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Brownsville_SEC20150325135236993" name="Brownsville_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Cape_Lisburne_SEC20150325135236849" name="Cape_Lisburne_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Cape_Lisburne_SEC20150325135236849" name="Cape_Lisburne_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Charlotte_SEC20150325135236716" name="Charlotte_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Charlotte_SEC20150325135236716" name="Charlotte_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Cheyenne_SEC20150325135236579" name="Cheyenne_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Cheyenne_SEC20150325135236579" name="Cheyenne_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Chicago_SEC20150325135236449" name="Chicago_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Chicago_SEC20150325135236449" name="Chicago_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Cincinnati_SEC20150325135236309" name="Cincinnati_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Cincinnati_SEC20150325135236309" name="Cincinnati_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Cold_Bay_SEC20150325135236176" name="Cold_Bay_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Cold_Bay_SEC20150325135236176" name="Cold_Bay_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Dallas_Ft_Worth_SEC20150325135236026" name="Dallas-Ft_Worth_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Dallas_Ft_Worth_SEC20150325135236026" name="Dallas-Ft_Worth_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Dawson_SEC20150325135235888" name="Dawson_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Dawson_SEC20150325135235888" name="Dawson_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Denver_SEC20150325135235752" name="Denver_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Denver_SEC20150325135235752" name="Denver_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Detroit_SEC20150325135235605" name="Detroit_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Detroit_SEC20150325135235605" name="Detroit_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Dutch_Harbor_SEC20150325135235467" name="Dutch_Harbor_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Dutch_Harbor_SEC20150325135235467" name="Dutch_Harbor_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="El_Paso_SEC20150325135235331" name="El_Paso_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="El_Paso_SEC20150325135235331" name="El_Paso_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Fairbanks_SEC20150325135235200" name="Fairbanks_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Fairbanks_SEC20150325135235200" name="Fairbanks_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Great_Falls_SEC20150325135235067" name="Great_Falls_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Great_Falls_SEC20150325135235067" name="Great_Falls_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Green_Bay_SEC20150325135234931" name="Green_Bay_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Green_Bay_SEC20150325135234931" name="Green_Bay_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Halifax_SEC20150325135234791" name="Halifax_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Halifax_SEC20150325135234791" name="Halifax_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Honolulu_Inset_SEC20150325135234492" name="Honolulu_Inset_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Honolulu_Inset_SEC20150325135234492" name="Honolulu_Inset_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Hawaiian_Islands_SEC20150325135234653" name="Hawaiian_Islands_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Hawaiian_Islands_SEC20150325135234653" name="Hawaiian_Islands_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Houston_SEC20150325135234356" name="Houston_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Houston_SEC20150325135234356" name="Houston_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Jacksonville_SEC20150325135234221" name="Jacksonville_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Jacksonville_SEC20150325135234221" name="Jacksonville_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Juneau_SEC20150325135234074" name="Juneau_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Juneau_SEC20150325135234074" name="Juneau_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Kansas_City_SEC20150325135233938" name="Kansas_City_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Kansas_City_SEC20150325135233938" name="Kansas_City_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Ketchikan_SEC20150325135233787" name="Ketchikan_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Ketchikan_SEC20150325135233787" name="Ketchikan_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Klamath_Falls_SEC20150325135233656" name="Klamath_Falls_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Klamath_Falls_SEC20150325135233656" name="Klamath_Falls_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Kodiak_SEC20150325135233516" name="Kodiak_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Kodiak_SEC20150325135233516" name="Kodiak_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Lake_Huron_SEC20150325135233376" name="Lake_Huron_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Lake_Huron_SEC20150325135233376" name="Lake_Huron_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Las_Vegas_SEC20150325135233236" name="Las_Vegas_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Las_Vegas_SEC20150325135233236" name="Las_Vegas_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Los_Angeles_SEC20150325135233092" name="Los_Angeles_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Los_Angeles_SEC20150325135233092" name="Los_Angeles_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Mariana_Islands_Inset_SEC20150325135232951" name="Mariana_Islands_Inset_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Mariana_Islands_Inset_SEC20150325135232951" name="Mariana_Islands_Inset_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="McGrath_SEC20150325135232822" name="McGrath_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="McGrath_SEC20150325135232822" name="McGrath_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Memphis_SEC20150325135232688" name="Memphis_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Memphis_SEC20150325135232688" name="Memphis_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Miami_SEC20150325135232543" name="Miami_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Miami_SEC20150325135232543" name="Miami_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Montreal_SEC20150325135232408" name="Montreal_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Montreal_SEC20150325135232408" name="Montreal_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="New_Orleans_SEC20150325135232265" name="New_Orleans_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="New_Orleans_SEC20150325135232265" name="New_Orleans_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="New_York_SEC20150325135232122" name="New_York_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="New_York_SEC20150325135232122" name="New_York_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Nome_SEC20150325135231986" name="Nome_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Nome_SEC20150325135231986" name="Nome_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Omaha_SEC20150325135231855" name="Omaha_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Omaha_SEC20150325135231855" name="Omaha_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Phoenix_SEC20150325135231715" name="Phoenix_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Phoenix_SEC20150325135231715" name="Phoenix_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Point_Barrow_SEC20150325135231584" name="Point_Barrow_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Point_Barrow_SEC20150325135231584" name="Point_Barrow_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Salt_Lake_City_SEC20150325135231443" name="Salt_Lake_City_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Salt_Lake_City_SEC20150325135231443" name="Salt_Lake_City_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Samoan_Islands_Inset_SEC20150325135231302" name="Samoan_Islands_Inset_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Samoan_Islands_Inset_SEC20150325135231302" name="Samoan_Islands_Inset_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="San_Antonio_SEC20150325135231163" name="San_Antonio_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="San_Antonio_SEC20150325135231163" name="San_Antonio_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="San_Francisco_SEC20150325135231015" name="San_Francisco_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="San_Francisco_SEC20150325135231015" name="San_Francisco_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Seattle_SEC20150325135230879" name="Seattle_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Seattle_SEC20150325135230879" name="Seattle_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Seward_SEC20150325135230742" name="Seward_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Seward_SEC20150325135230742" name="Seward_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="St_Louis_SEC20150325135230611" name="St_Louis_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="St_Louis_SEC20150325135230611" name="St_Louis_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Twin_Cities_SEC20150325135230470" name="Twin_Cities_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Twin_Cities_SEC20150325135230470" name="Twin_Cities_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Washington_SEC20150325135230340" name="Washington_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Washington_SEC20150325135230340" name="Washington_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Western_Aleutian_Islands_East_SEC20150325135230205" name="Western_Aleutian_Islands_East_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Western_Aleutian_Islands_East_SEC20150325135230205" name="Western_Aleutian_Islands_East_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Western_Aleutian_Islands_West_SEC20150325135230075" name="Western_Aleutian_Islands_West_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Western_Aleutian_Islands_West_SEC20150325135230075" name="Western_Aleutian_Islands_West_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Whitehorse_SEC20150325135229938" name="Whitehorse_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Whitehorse_SEC20150325135229938" name="Whitehorse_SEC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Wichita_SEC20150325135229680" name="Wichita_SEC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Wichita_SEC20150325135229680" name="Wichita_SEC">
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="WAC">
+        <layer-tree-group expanded="0" checked="Qt::Checked" name="WAC">
           <customproperties/>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CC_8_WAC20150325135321619" name="CC-8_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CC_8_WAC20150325135321619" name="CC-8_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CC_9_WAC20150325135321336" name="CC-9_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CC_9_WAC20150325135321336" name="CC-9_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CD_10_WAC20150325135321056" name="CD-10_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CD_10_WAC20150325135321056" name="CD-10_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CD_11_WAC20150325135320772" name="CD-11_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CD_11_WAC20150325135320772" name="CD-11_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CD_12_WAC20150325135320480" name="CD-12_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CD_12_WAC20150325135320480" name="CD-12_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CE_12_WAC20150325135320192" name="CE-12_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CE_12_WAC20150325135320192" name="CE-12_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CE_13_WAC20150325135319887" name="CE-13_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CE_13_WAC20150325135319887" name="CE-13_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CE_15_WAC20150325135319599" name="CE-15_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CE_15_WAC20150325135319599" name="CE-15_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CF_16_WAC20150325135319324" name="CF-16_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CF_16_WAC20150325135319324" name="CF-16_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CF_17_WAC20150325135319032" name="CF-17_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CF_17_WAC20150325135319032" name="CF-17_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CF_18_WAC20150325135318756" name="CF-18_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CF_18_WAC20150325135318756" name="CF-18_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CF_19_WAC20150325135318469" name="CF-19_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CF_19_WAC20150325135318469" name="CF-19_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CG_18_WAC20150325135318181" name="CG-18_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CG_18_WAC20150325135318181" name="CG-18_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CG_19_WAC20150325135317896" name="CG-19_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CG_19_WAC20150325135317896" name="CG-19_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CG_20_WAC20150325135317614" name="CG-20_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CG_20_WAC20150325135317614" name="CG-20_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CG_21_WAC20150325135317327" name="CG-21_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CG_21_WAC20150325135317327" name="CG-21_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CH_22_WAC20150325135317047" name="CH-22_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CH_22_WAC20150325135317047" name="CH-22_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CH_23_WAC20150325135316756" name="CH-23_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CH_23_WAC20150325135316756" name="CH-23_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CH_24_WAC20150325135316470" name="CH-24_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CH_24_WAC20150325135316470" name="CH-24_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CH_25_WAC20150325135316192" name="CH-25_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CH_25_WAC20150325135316192" name="CH-25_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CJ_26_WAC20150325135315895" name="CJ-26_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CJ_26_WAC20150325135315895" name="CJ-26_WAC">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="CJ_27_WAC20150325135315465" name="CJ-27_WAC">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="CJ_27_WAC20150325135315465" name="CJ-27_WAC">
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="U_S__VFR_Wall_Planning_Chart_420150325135503263" name="U.S. VFR Wall Planning Chart 4">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="U_S__VFR_Wall_Planning_Chart_420150325135503263" name="U.S. VFR Wall Planning Chart 4">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Maps">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Maps">
         <customproperties/>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Graticules">
           <customproperties/>
@@ -1081,7 +1081,7 @@
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150402052226855" name="Stamen Terrain-USA/OSM">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenLayers_plugin_layer20150401140129415" name="Google Streets">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150401140129415" name="Google Streets">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150326092049146" name="Google Hybrid">
@@ -1091,7 +1091,7 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Natural Earth">
+      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Natural Earth">
         <customproperties/>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Unused">
           <customproperties/>
@@ -1225,13 +1225,13 @@
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ne_10m_lakes_north_america20150401125700719" name="ne_10m_lakes_north_america">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ne_10m_minor_islands20150401125700844" name="ne_10m_minor_islands">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="ne_10m_minor_islands20150401125700844" name="ne_10m_minor_islands">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ne_10m_lakes20150401125700743" name="ne_10m_lakes">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ne_10m_coastline20150401125700517" name="ne_10m_coastline">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="ne_10m_coastline20150401125700517" name="ne_10m_coastline">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ne_10m_land20150401125700803" name="ne_10m_land">
@@ -1251,10 +1251,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-9690574.23025361075997353</xmin>
-      <ymin>3983884.01204616809263825</ymin>
-      <xmax>-8440909.1566181443631649</xmax>
-      <ymax>4283650.81987261213362217</ymax>
+      <xmin>-21630550.80446788668632507</xmin>
+      <ymin>1596598.38718143943697214</ymin>
+      <xmax>-6253143.63042118493467569</xmax>
+      <ymax>10617087.93343017622828484</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -1460,6 +1460,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="NEXRAD_BASE_REFLECT_CURRENT20150216201857130"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_lakes_pluvial20150401125700731"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CG_19_WAC20150325135317896"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="fix_fix120140819090338021"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="mergedTfrs20140418162128320"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Seattle_TAC20150325135202457"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Baltimore_Washington_TAC20150325135205273"/>
@@ -2160,9 +2161,9 @@
       </legendlayer>
     </legendgroup>
     <legendgroup open="true" checked="Qt::PartiallyChecked" name="Miscellaneous">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ARTCC Radar sites" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ARTCC Radar sites" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="artccGeometry20150403123732937" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="artccGeometry20150403123732937" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="com_com" showFeatureCount="0">
@@ -2202,30 +2203,30 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="false" checked="Qt::Unchecked" name="Fixes">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="FIX_FIX1" showFeatureCount="0">
+      <legendgroup open="true" checked="Qt::PartiallyChecked" name="Fixes">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="FIX_FIX1" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="FIX_FIX120140819090337324" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="FIX_FIX120140819090337324" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="FIX_FIX2" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="FIX_FIX2" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="FIX_FIX220140819090337778" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="FIX_FIX220140819090337778" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="FIX_FIX3" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="FIX_FIX3" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="FIX_FIX320140819090337853" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="FIX_FIX320140819090337853" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="FIX_FIX4" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="FIX_FIX4" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="FIX_FIX420140819090337877" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="FIX_FIX420140819090337877" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="FIX_FIX5" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="FIX_FIX5" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="FIX_FIX520140819090337896" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="FIX_FIX520140819090337896" visible="1"/>
           </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="fix_fix1" showFeatureCount="0">
@@ -2350,7 +2351,7 @@
           </legendlayer>
         </legendgroup>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::Unchecked" name="Charts">
+      <legendgroup open="true" checked="Qt::PartiallyChecked" name="Charts">
         <legendgroup open="true" checked="Qt::Unchecked" name="Enroute">
           <legendgroup open="false" checked="Qt::Unchecked" name="Low IFR">
             <legendgroup open="false" checked="Qt::Unchecked" name="Area">
@@ -2776,170 +2777,170 @@
             </legendlayer>
           </legendgroup>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Unchecked" name="TAC">
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Anchorage_TAC" showFeatureCount="0">
+        <legendgroup open="false" checked="Qt::Checked" name="TAC">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Anchorage_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Anchorage_TAC20150325135205462" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Anchorage_TAC20150325135205462" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Atlanta_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Atlanta_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Atlanta_TAC20150325135205368" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Atlanta_TAC20150325135205368" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Baltimore-Washington_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Baltimore-Washington_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Baltimore_Washington_TAC20150325135205273" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Baltimore_Washington_TAC20150325135205273" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Boston_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Boston_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Boston_TAC20150325135205175" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Boston_TAC20150325135205175" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Charlotte_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Charlotte_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Charlotte_TAC20150325135205064" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Charlotte_TAC20150325135205064" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Chicago_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Chicago_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Chicago_TAC20150325135204961" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Chicago_TAC20150325135204961" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Cincinnati_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Cincinnati_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Cincinnati_TAC20150325135204852" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Cincinnati_TAC20150325135204852" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Cleveland_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Cleveland_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Cleveland_TAC20150325135204760" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Cleveland_TAC20150325135204760" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Colorado_Springs_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Colorado_Springs_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Colorado_Springs_TAC20150325135204668" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Colorado_Springs_TAC20150325135204668" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Dallas-Ft_Worth_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Dallas-Ft_Worth_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Dallas_Ft_Worth_TAC20150325135204560" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Dallas_Ft_Worth_TAC20150325135204560" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Denver_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Denver_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Denver_TAC20150325135204470" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Denver_TAC20150325135204470" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Detroit_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Detroit_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Detroit_TAC20150325135204365" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Detroit_TAC20150325135204365" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Fairbanks_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Fairbanks_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Fairbanks_TAC20150325135204272" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Fairbanks_TAC20150325135204272" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Houston_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Houston_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Houston_TAC20150325135204183" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Houston_TAC20150325135204183" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Kansas_City_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Kansas_City_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Kansas_City_TAC20150325135204093" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Kansas_City_TAC20150325135204093" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Las_Vegas_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Las_Vegas_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Las_Vegas_TAC20150325135204003" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Las_Vegas_TAC20150325135204003" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Los_Angeles_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Los_Angeles_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Los_Angeles_TAC20150325135203909" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Los_Angeles_TAC20150325135203909" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Memphis_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Memphis_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Memphis_TAC20150325135203806" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Memphis_TAC20150325135203806" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Miami_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Miami_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Miami_TAC20150325135203706" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Miami_TAC20150325135203706" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Minneapolis-St_Paul_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Minneapolis-St_Paul_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Minneapolis_St_Paul_TAC20150325135203605" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Minneapolis_St_Paul_TAC20150325135203605" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="New_Orleans_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="New_Orleans_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="New_Orleans_TAC20150325135203503" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="New_Orleans_TAC20150325135203503" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="New_York_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="New_York_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="New_York_TAC20150325135203411" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="New_York_TAC20150325135203411" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Orlando_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Orlando_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Orlando_TAC20150325135203308" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Orlando_TAC20150325135203308" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Philadelphia_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Philadelphia_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Philadelphia_TAC20150325135203199" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Philadelphia_TAC20150325135203199" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Phoenix_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Phoenix_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Phoenix_TAC20150325135203095" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Phoenix_TAC20150325135203095" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Pittsburgh_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Pittsburgh_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Pittsburgh_TAC20150325135202997" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Pittsburgh_TAC20150325135202997" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Puerto_Rico-VI_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Puerto_Rico-VI_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Puerto_Rico_VI_TAC20150325135202902" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Puerto_Rico_VI_TAC20150325135202902" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Salt_Lake_City_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Salt_Lake_City_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Salt_Lake_City_TAC20150325135202782" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Salt_Lake_City_TAC20150325135202782" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="San_Diego_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="San_Diego_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="San_Diego_TAC20150325135202674" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="San_Diego_TAC20150325135202674" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="San_Francisco_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="San_Francisco_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="San_Francisco_TAC20150325135202562" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="San_Francisco_TAC20150325135202562" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Seattle_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Seattle_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Seattle_TAC20150325135202457" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Seattle_TAC20150325135202457" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="St_Louis_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="St_Louis_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="St_Louis_TAC20150325135202349" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="St_Louis_TAC20150325135202349" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Tampa_TAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Tampa_TAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Tampa_TAC20150325135202157" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Tampa_TAC20150325135202157" visible="1"/>
             </filegroup>
           </legendlayer>
         </legendgroup>
@@ -3047,454 +3048,454 @@
             </filegroup>
           </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Unchecked" name="Sectionals">
-          <legendgroup open="true" checked="Qt::Unchecked" name="Insets">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Dutch_Harbor_Inset" showFeatureCount="0">
+        <legendgroup open="false" checked="Qt::Checked" name="Sectionals">
+          <legendgroup open="true" checked="Qt::Checked" name="Insets">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Dutch_Harbor_Inset" showFeatureCount="0">
               <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Dutch_Harbor_Inset20150329215250388" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="Dutch_Harbor_Inset20150329215250388" visible="1"/>
               </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Jacksonville_Inset" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Jacksonville_Inset" showFeatureCount="0">
               <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Jacksonville_Inset20150329215250354" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="Jacksonville_Inset20150329215250354" visible="1"/>
               </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Juneau_Inset" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Juneau_Inset" showFeatureCount="0">
               <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Juneau_Inset20150329215250320" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="Juneau_Inset20150329215250320" visible="1"/>
               </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Ketchikan_Inset" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Ketchikan_Inset" showFeatureCount="0">
               <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Ketchikan_Inset20150329215250285" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="Ketchikan_Inset20150329215250285" visible="1"/>
               </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Kodiak_Inset" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Kodiak_Inset" showFeatureCount="0">
               <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Kodiak_Inset20150329215250250" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="Kodiak_Inset20150329215250250" visible="1"/>
               </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Norfolk_Inset" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Norfolk_Inset" showFeatureCount="0">
               <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Norfolk_Inset20150329215250142" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="Norfolk_Inset20150329215250142" visible="1"/>
               </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Pribilof_Islands_Inset" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Pribilof_Islands_Inset" showFeatureCount="0">
               <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Pribilof_Islands_Inset20150329215250055" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="Pribilof_Islands_Inset20150329215250055" visible="1"/>
               </filegroup>
             </legendlayer>
           </legendgroup>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Albuquerque_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Albuquerque_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Albuquerque_SEC20150325135237696" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Albuquerque_SEC20150325135237696" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Anchorage_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Anchorage_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Anchorage_SEC20150325135237559" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Anchorage_SEC20150325135237559" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Atlanta_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Atlanta_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Atlanta_SEC20150325135237405" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Atlanta_SEC20150325135237405" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Bethel_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Bethel_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Bethel_SEC20150325135237266" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Bethel_SEC20150325135237266" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Billings_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Billings_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Billings_SEC20150325135237128" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Billings_SEC20150325135237128" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Brownsville_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Brownsville_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Brownsville_SEC20150325135236993" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Brownsville_SEC20150325135236993" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Cape_Lisburne_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Cape_Lisburne_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Cape_Lisburne_SEC20150325135236849" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Cape_Lisburne_SEC20150325135236849" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Charlotte_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Charlotte_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Charlotte_SEC20150325135236716" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Charlotte_SEC20150325135236716" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Cheyenne_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Cheyenne_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Cheyenne_SEC20150325135236579" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Cheyenne_SEC20150325135236579" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Chicago_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Chicago_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Chicago_SEC20150325135236449" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Chicago_SEC20150325135236449" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Cincinnati_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Cincinnati_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Cincinnati_SEC20150325135236309" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Cincinnati_SEC20150325135236309" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Cold_Bay_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Cold_Bay_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Cold_Bay_SEC20150325135236176" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Cold_Bay_SEC20150325135236176" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Dallas-Ft_Worth_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Dallas-Ft_Worth_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Dallas_Ft_Worth_SEC20150325135236026" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Dallas_Ft_Worth_SEC20150325135236026" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Dawson_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Dawson_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Dawson_SEC20150325135235888" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Dawson_SEC20150325135235888" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Denver_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Denver_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Denver_SEC20150325135235752" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Denver_SEC20150325135235752" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Detroit_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Detroit_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Detroit_SEC20150325135235605" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Detroit_SEC20150325135235605" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Dutch_Harbor_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Dutch_Harbor_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Dutch_Harbor_SEC20150325135235467" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Dutch_Harbor_SEC20150325135235467" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="El_Paso_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="El_Paso_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="El_Paso_SEC20150325135235331" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="El_Paso_SEC20150325135235331" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Fairbanks_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Fairbanks_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Fairbanks_SEC20150325135235200" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Fairbanks_SEC20150325135235200" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Great_Falls_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Great_Falls_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Great_Falls_SEC20150325135235067" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Great_Falls_SEC20150325135235067" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Green_Bay_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Green_Bay_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Green_Bay_SEC20150325135234931" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Green_Bay_SEC20150325135234931" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Halifax_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Halifax_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Halifax_SEC20150325135234791" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Halifax_SEC20150325135234791" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Honolulu_Inset_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Honolulu_Inset_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Honolulu_Inset_SEC20150325135234492" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Honolulu_Inset_SEC20150325135234492" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Hawaiian_Islands_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Hawaiian_Islands_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Hawaiian_Islands_SEC20150325135234653" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Hawaiian_Islands_SEC20150325135234653" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Houston_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Houston_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Houston_SEC20150325135234356" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Houston_SEC20150325135234356" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Jacksonville_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Jacksonville_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Jacksonville_SEC20150325135234221" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Jacksonville_SEC20150325135234221" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Juneau_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Juneau_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Juneau_SEC20150325135234074" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Juneau_SEC20150325135234074" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Kansas_City_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Kansas_City_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Kansas_City_SEC20150325135233938" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Kansas_City_SEC20150325135233938" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Ketchikan_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Ketchikan_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Ketchikan_SEC20150325135233787" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Ketchikan_SEC20150325135233787" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Klamath_Falls_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Klamath_Falls_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Klamath_Falls_SEC20150325135233656" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Klamath_Falls_SEC20150325135233656" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Kodiak_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Kodiak_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Kodiak_SEC20150325135233516" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Kodiak_SEC20150325135233516" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Lake_Huron_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Lake_Huron_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Lake_Huron_SEC20150325135233376" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Lake_Huron_SEC20150325135233376" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Las_Vegas_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Las_Vegas_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Las_Vegas_SEC20150325135233236" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Las_Vegas_SEC20150325135233236" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Los_Angeles_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Los_Angeles_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Los_Angeles_SEC20150325135233092" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Los_Angeles_SEC20150325135233092" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Mariana_Islands_Inset_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Mariana_Islands_Inset_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Mariana_Islands_Inset_SEC20150325135232951" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Mariana_Islands_Inset_SEC20150325135232951" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="McGrath_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="McGrath_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="McGrath_SEC20150325135232822" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="McGrath_SEC20150325135232822" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Memphis_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Memphis_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Memphis_SEC20150325135232688" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Memphis_SEC20150325135232688" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Miami_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Miami_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Miami_SEC20150325135232543" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Miami_SEC20150325135232543" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Montreal_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Montreal_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Montreal_SEC20150325135232408" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Montreal_SEC20150325135232408" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="New_Orleans_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="New_Orleans_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="New_Orleans_SEC20150325135232265" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="New_Orleans_SEC20150325135232265" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="New_York_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="New_York_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="New_York_SEC20150325135232122" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="New_York_SEC20150325135232122" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Nome_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Nome_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Nome_SEC20150325135231986" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Nome_SEC20150325135231986" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Omaha_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Omaha_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Omaha_SEC20150325135231855" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Omaha_SEC20150325135231855" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Phoenix_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Phoenix_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Phoenix_SEC20150325135231715" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Phoenix_SEC20150325135231715" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Point_Barrow_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Point_Barrow_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Point_Barrow_SEC20150325135231584" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Point_Barrow_SEC20150325135231584" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Salt_Lake_City_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Salt_Lake_City_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Salt_Lake_City_SEC20150325135231443" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Salt_Lake_City_SEC20150325135231443" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Samoan_Islands_Inset_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Samoan_Islands_Inset_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Samoan_Islands_Inset_SEC20150325135231302" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Samoan_Islands_Inset_SEC20150325135231302" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="San_Antonio_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="San_Antonio_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="San_Antonio_SEC20150325135231163" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="San_Antonio_SEC20150325135231163" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="San_Francisco_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="San_Francisco_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="San_Francisco_SEC20150325135231015" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="San_Francisco_SEC20150325135231015" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Seattle_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Seattle_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Seattle_SEC20150325135230879" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Seattle_SEC20150325135230879" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Seward_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Seward_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Seward_SEC20150325135230742" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Seward_SEC20150325135230742" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="St_Louis_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="St_Louis_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="St_Louis_SEC20150325135230611" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="St_Louis_SEC20150325135230611" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Twin_Cities_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Twin_Cities_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Twin_Cities_SEC20150325135230470" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Twin_Cities_SEC20150325135230470" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Washington_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Washington_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Washington_SEC20150325135230340" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Washington_SEC20150325135230340" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Western_Aleutian_Islands_East_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Western_Aleutian_Islands_East_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Western_Aleutian_Islands_East_SEC20150325135230205" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Western_Aleutian_Islands_East_SEC20150325135230205" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Western_Aleutian_Islands_West_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Western_Aleutian_Islands_West_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Western_Aleutian_Islands_West_SEC20150325135230075" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Western_Aleutian_Islands_West_SEC20150325135230075" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Whitehorse_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Whitehorse_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Whitehorse_SEC20150325135229938" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Whitehorse_SEC20150325135229938" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Wichita_SEC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Wichita_SEC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Wichita_SEC20150325135229680" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Wichita_SEC20150325135229680" visible="1"/>
             </filegroup>
           </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Unchecked" name="WAC">
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CC-8_WAC" showFeatureCount="0">
+        <legendgroup open="false" checked="Qt::Checked" name="WAC">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CC-8_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CC_8_WAC20150325135321619" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CC_8_WAC20150325135321619" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CC-9_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CC-9_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CC_9_WAC20150325135321336" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CC_9_WAC20150325135321336" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CD-10_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CD-10_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CD_10_WAC20150325135321056" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CD_10_WAC20150325135321056" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CD-11_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CD-11_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CD_11_WAC20150325135320772" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CD_11_WAC20150325135320772" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CD-12_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CD-12_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CD_12_WAC20150325135320480" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CD_12_WAC20150325135320480" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CE-12_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CE-12_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CE_12_WAC20150325135320192" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CE_12_WAC20150325135320192" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CE-13_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CE-13_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CE_13_WAC20150325135319887" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CE_13_WAC20150325135319887" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CE-15_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CE-15_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CE_15_WAC20150325135319599" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CE_15_WAC20150325135319599" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CF-16_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CF-16_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CF_16_WAC20150325135319324" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CF_16_WAC20150325135319324" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CF-17_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CF-17_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CF_17_WAC20150325135319032" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CF_17_WAC20150325135319032" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CF-18_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CF-18_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CF_18_WAC20150325135318756" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CF_18_WAC20150325135318756" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CF-19_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CF-19_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CF_19_WAC20150325135318469" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CF_19_WAC20150325135318469" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CG-18_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CG-18_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CG_18_WAC20150325135318181" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CG_18_WAC20150325135318181" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CG-19_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CG-19_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CG_19_WAC20150325135317896" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CG_19_WAC20150325135317896" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CG-20_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CG-20_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CG_20_WAC20150325135317614" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CG_20_WAC20150325135317614" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CG-21_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CG-21_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CG_21_WAC20150325135317327" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CG_21_WAC20150325135317327" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CH-22_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CH-22_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CH_22_WAC20150325135317047" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CH_22_WAC20150325135317047" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CH-23_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CH-23_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CH_23_WAC20150325135316756" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CH_23_WAC20150325135316756" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CH-24_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CH-24_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CH_24_WAC20150325135316470" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CH_24_WAC20150325135316470" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CH-25_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CH-25_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CH_25_WAC20150325135316192" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CH_25_WAC20150325135316192" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CJ-26_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CJ-26_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CJ_26_WAC20150325135315895" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CJ_26_WAC20150325135315895" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="CJ-27_WAC" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CJ-27_WAC" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="CJ_27_WAC20150325135315465" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="CJ_27_WAC20150325135315465" visible="1"/>
             </filegroup>
           </legendlayer>
         </legendgroup>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="U.S. VFR Wall Planning Chart 4" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="U.S. VFR Wall Planning Chart 4" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="U_S__VFR_Wall_Planning_Chart_420150325135503263" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="U_S__VFR_Wall_Planning_Chart_420150325135503263" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::PartiallyChecked" name="Maps">
+      <legendgroup open="true" checked="Qt::Unchecked" name="Maps">
         <legendgroup open="false" checked="Qt::Unchecked" name="Graticules">
           <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="onefDegreeGraticulesAsLines" showFeatureCount="0">
             <filegroup open="true" hidden="false">
@@ -3517,9 +3518,9 @@
             <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150402052226855" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Google Streets" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Streets" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150401140129415" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150401140129415" visible="0"/>
           </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Hybrid" showFeatureCount="0">
@@ -3533,7 +3534,7 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::Unchecked" name="Natural Earth">
+      <legendgroup open="true" checked="Qt::PartiallyChecked" name="Natural Earth">
         <legendgroup open="false" checked="Qt::Unchecked" name="Unused">
           <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ne_10m_antarctic_ice_shelves_lines" showFeatureCount="0">
             <filegroup open="true" hidden="false">
@@ -3751,9 +3752,9 @@
             <legendlayerfile isInOverview="0" layerid="ne_10m_lakes_north_america20150401125700719" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ne_10m_minor_islands" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ne_10m_minor_islands" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="ne_10m_minor_islands20150401125700844" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="ne_10m_minor_islands20150401125700844" visible="1"/>
           </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ne_10m_lakes" showFeatureCount="0">
@@ -3761,9 +3762,9 @@
             <legendlayerfile isInOverview="0" layerid="ne_10m_lakes20150401125700743" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ne_10m_coastline" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ne_10m_coastline" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="ne_10m_coastline20150401125700517" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="ne_10m_coastline20150401125700517" visible="1"/>
           </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ne_10m_land" showFeatureCount="0">
@@ -57046,6 +57047,7 @@ AND
         <value>apt_rwy20140806222815657</value>
         <value>apt_rwy20140806222856760</value>
         <value>apt_rwy20140806222940041</value>
+        <value>artccGeometry20150403123732937</value>
         <value>awos_awos120140806223020929</value>
         <value>awy_awysegments20140817233208643</value>
         <value>class_b20131205212005412</value>
@@ -57245,6 +57247,7 @@ AND
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
+        <value>disabled</value>
       </LayerSnappingEnabledList>
       <SnappingMode type="QString">advanced</SnappingMode>
       <AvoidIntersectionsList type="QStringList"/>
@@ -57272,6 +57275,7 @@ AND
         <value>0</value>
         <value>0</value>
         <value>0</value>
+        <value>2</value>
         <value>0</value>
         <value>0</value>
         <value>0</value>
@@ -57471,10 +57475,12 @@ AND
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
       </LayerSnapToList>
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
