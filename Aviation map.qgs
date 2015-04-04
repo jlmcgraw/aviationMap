@@ -250,7 +250,7 @@
         <layer-tree-layer expanded="1" checked="Qt::Checked" id="FIX_FIX520140819090337896" name="FIX_FIX5">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="fix_fix120140819090338021" name="fix_fix1">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="fix_fix120140819090338021" name="fix_fix1">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -317,16 +317,43 @@
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="mora20140725140447821" name="Minimum Off-Route Altitude (MORA)">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Instrument Plates">
+      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Instrument Plates">
         <customproperties/>
-        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="SFO">
+        <layer-tree-group expanded="0" checked="Qt::Checked" name="SFO">
           <customproperties/>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="SFO_00375RZ28R20150404112554455" name="SFO-00375RZ28R">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="SFO_00375R28L20150404112554355" name="SFO-00375R28L">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="SFO_00375IL28R20150404112554274" name="SFO-00375IL28R">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="SFO_00375IL28L20150404112554166" name="SFO-00375IL28L">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="SFO_00375I28RSAC120150404112554053" name="SFO-00375I28RSAC1">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="SFO_00375I28RC2_320150404112553982" name="SFO-00375I28RC2_3">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="SFO_00375I28LSAC220150404112553890" name="SFO-00375I28LSAC2">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="SFO_00375AD20150404112553687" name="SFO-00375AD">
+            <customproperties/>
+          </layer-tree-layer>
         </layer-tree-group>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" name="IAD">
           <customproperties/>
         </layer-tree-group>
-        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="BOS">
+        <layer-tree-group expanded="0" checked="Qt::Checked" name="BOS">
           <customproperties/>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="BOS_00058AD20150404112513775" name="BOS-00058AD">
+            <customproperties/>
+          </layer-tree-layer>
         </layer-tree-group>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" name="RIC">
           <customproperties/>
@@ -1251,10 +1278,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-21630550.80446788668632507</xmin>
-      <ymin>1596598.38718143943697214</ymin>
-      <xmax>-6253143.63042118493467569</xmax>
-      <ymax>10617087.93343017622828484</ymax>
+      <xmin>-14645456.9799965713173151</xmin>
+      <ymin>2350260.26495664473623037</ymin>
+      <xmax>-6956753.39297321997582912</xmax>
+      <ymax>6860505.03808101359754801</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -1352,6 +1379,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CG_21_WAC20150325135317327"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_land_ocean_seams20150401125700767"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="narc20150325133840818"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SFO_00375R28L20150404112554355"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CD_11_WAC20150325135320772"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="mtr_mtr520150401101737005"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Kodiak_SEC20150325135233516"/>
@@ -1361,13 +1389,17 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="apt_rwy20140806222730143"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ketchikan_Inset20150329215250285"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CJ_26_WAC20150325135315895"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SFO_00375AD20150404112553687"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Mariana_Islands_Inset_SEC20150325135232951"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Puerto_Rico_VI_TAC20150325135202902"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SFO_00375I28LSAC220150404112553890"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150402052216309"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_F_500020150401125700419"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Salt_Lake_City_SEC20150325135231443"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_geographic_lines20150401125700531"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SFO_00375IL28L20150404112554166"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Juneau_SEC20150325135234074"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SFO_00375I28RC2_320150404112553982"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CF_16_WAC20150325135319324"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_I_200020150401125700457"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Cleveland_TAC20150325135204760"/>
@@ -1400,6 +1432,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_rivers_europe20150401125700905"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_minor_islands_coastline20150401125700814"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="airspace20150320130912778"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BOS_00058AD20150404112513775"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="nav_nav120140806223035684"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Chicago_SEC20150325135236449"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Dallas_Ft_Worth_TAC20150325135204560"/>
@@ -1449,6 +1482,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="apt_apt20140815144904818"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_graticules_3020150401125700683"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150326092049146"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SFO_00375IL28R20150404112554274"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Nome_SEC20150325135231986"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Great_Falls_SEC20150325135235067"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CF_17_WAC20150325135319032"/>
@@ -1464,6 +1498,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="mergedTfrs20140418162128320"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Seattle_TAC20150325135202457"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Baltimore_Washington_TAC20150325135205273"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SFO_00375I28RSAC120150404112554053"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Houston_TAC20150325135204183"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Pribilof_Islands_Inset20150329215250055"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Point_Barrow_SEC20150325135231584"/>
@@ -1476,6 +1511,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="McGrath_SEC20150325135232822"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Dallas_Ft_Worth_SEC20150325135236026"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="onefDegreeGraticulesAsLines20150302134040269"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SFO_00375RZ28R20150404112554455"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Miami_TAC20150325135203706"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CH_24_WAC20150325135316470"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150103114321887"/>
@@ -1852,6 +1888,15 @@
       <item>ne_10m_land20150401125700803</item>
       <item>ne_10m_ocean20150401125700871</item>
       <item>artccGeometry20150403123732937</item>
+      <item>BOS_00058AD20150404112513775</item>
+      <item>SFO_00375AD20150404112553687</item>
+      <item>SFO_00375I28LSAC220150404112553890</item>
+      <item>SFO_00375I28RC2_320150404112553982</item>
+      <item>SFO_00375I28RSAC120150404112554053</item>
+      <item>SFO_00375IL28L20150404112554166</item>
+      <item>SFO_00375IL28R20150404112554274</item>
+      <item>SFO_00375R28L20150404112554355</item>
+      <item>SFO_00375RZ28R20150404112554455</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -2229,8 +2274,8 @@
             <legendlayerfile isInOverview="0" layerid="FIX_FIX520140819090337896" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="fix_fix1" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="fix_fix1" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="fix_fix120140819090338021" visible="0"/>
           </filegroup>
         </legendlayer>
@@ -2318,10 +2363,57 @@
           <legendlayerfile isInOverview="0" layerid="mora20140725140447821" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendgroup open="true" checked="Qt::Unchecked" name="Instrument Plates">
-        <legendgroup open="false" checked="Qt::Unchecked" name="SFO"/>
+      <legendgroup open="true" checked="Qt::PartiallyChecked" name="Instrument Plates">
+        <legendgroup open="false" checked="Qt::Checked" name="SFO">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="SFO-00375RZ28R" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile isInOverview="0" layerid="SFO_00375RZ28R20150404112554455" visible="1"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="SFO-00375R28L" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile isInOverview="0" layerid="SFO_00375R28L20150404112554355" visible="1"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="SFO-00375IL28R" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile isInOverview="0" layerid="SFO_00375IL28R20150404112554274" visible="1"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="SFO-00375IL28L" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile isInOverview="0" layerid="SFO_00375IL28L20150404112554166" visible="1"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="SFO-00375I28RSAC1" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile isInOverview="0" layerid="SFO_00375I28RSAC120150404112554053" visible="1"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="SFO-00375I28RC2_3" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile isInOverview="0" layerid="SFO_00375I28RC2_320150404112553982" visible="1"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="SFO-00375I28LSAC2" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile isInOverview="0" layerid="SFO_00375I28LSAC220150404112553890" visible="1"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="SFO-00375AD" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile isInOverview="0" layerid="SFO_00375AD20150404112553687" visible="1"/>
+            </filegroup>
+          </legendlayer>
+        </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="IAD"/>
-        <legendgroup open="false" checked="Qt::Unchecked" name="BOS"/>
+        <legendgroup open="false" checked="Qt::Checked" name="BOS">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="BOS-00058AD" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile isInOverview="0" layerid="BOS_00058AD20150404112513775" visible="1"/>
+            </filegroup>
+          </legendlayer>
+        </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="RIC"/>
         <legendgroup open="false" checked="Qt::Unchecked" name="SUU"/>
       </legendgroup>
@@ -4946,7 +5038,7 @@
     </Composition>
     <Atlas hideCoverage="false" coverageLayer="" singleFile="false" filenamePattern="'output_'||$feature" enabled="true" filterFeatures="false" sortFeatures="false"/>
   </Composer>
-  <projectlayers layercount="368">
+  <projectlayers layercount="377">
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Albuquerque_SEC20150325135237696</id>
       <datasource>../mergedCharts/warpedRasters/sectional/Albuquerque_SEC.tif</datasource>
@@ -5464,6 +5556,49 @@
       </map-layer-style-manager>
       <pipe>
         <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>BOS_00058AD20150404112513775</id>
+      <datasource>./data/byAirportWorldFile-1503/BOS/BOS-00058AD.png</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>BOS-00058AD</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
           <rasterTransparency/>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
@@ -16651,6 +16786,350 @@
       </map-layer-style-manager>
       <pipe>
         <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>SFO_00375AD20150404112553687</id>
+      <datasource>./data/byAirportWorldFile-1503/SFO/SFO-00375AD.png</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>SFO-00375AD</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>SFO_00375I28LSAC220150404112553890</id>
+      <datasource>./data/byAirportWorldFile-1503/SFO/SFO-00375I28LSAC2.png</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>SFO-00375I28LSAC2</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>SFO_00375I28RC2_320150404112553982</id>
+      <datasource>./data/byAirportWorldFile-1503/SFO/SFO-00375I28RC2_3.png</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>SFO-00375I28RC2_3</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>SFO_00375I28RSAC120150404112554053</id>
+      <datasource>./data/byAirportWorldFile-1503/SFO/SFO-00375I28RSAC1.png</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>SFO-00375I28RSAC1</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>SFO_00375IL28L20150404112554166</id>
+      <datasource>./data/byAirportWorldFile-1503/SFO/SFO-00375IL28L.png</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>SFO-00375IL28L</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>SFO_00375IL28R20150404112554274</id>
+      <datasource>./data/byAirportWorldFile-1503/SFO/SFO-00375IL28R.png</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>SFO-00375IL28R</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>SFO_00375R28L20150404112554355</id>
+      <datasource>./data/byAirportWorldFile-1503/SFO/SFO-00375R28L.png</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>SFO-00375R28L</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>SFO_00375RZ28R20150404112554455</id>
+      <datasource>./data/byAirportWorldFile-1503/SFO/SFO-00375RZ28R.png</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>SFO-00375RZ28R</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
           <rasterTransparency/>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
