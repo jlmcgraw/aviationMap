@@ -17,7 +17,7 @@ To Do
 	Put in a runway for airports that don't have lat/lon of theirs
 
 	VOR background
-		Works except for rotation of numbers
+		Works except for rotation of numbers bug in QGIS
 
 	RCO info on VORs
 		There but needs to be filtered a bit
