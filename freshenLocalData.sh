@@ -1,6 +1,6 @@
 #!/bin/bash
 set -eu                # Always put this in Bourne shell scripts
-IFS="`printf '\n\t'`"  # Always put this in Bourne shell scripts
+IFS=$(printf '\n\t')  # Always put this in Bourne shell scripts
 
 dataUrl="https://www.dropbox.com/s/j018ph69x9nduv4/data.tar.xz"
 dataFile="data.tar.xz"
