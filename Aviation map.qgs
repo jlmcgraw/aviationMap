@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="2.12.1-Lyon">
+<qgis projectname="" version="2.12.2-Lyon">
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
@@ -156,14 +156,14 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Airways">
+    <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Airways">
       <customproperties/>
-      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Military Training Routes">
+      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Military Training Routes">
         <customproperties/>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="mtr_mtr520150401101737005" name="mtr_mtr5">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="mtr20150331204944020" name="mtr">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="mtr_mtrlines20160114101506745" name="mtr_mtrlines">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="MTR_MTR120140819084111469" name="MTR_MTR1">
@@ -392,19 +392,19 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Maximum Elevation figure (MEF)">
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="Maximum Elevation figure (MEF)">
         <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="mefTerrain20141222134900603" name="mefTerrain">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="mefTerrain20141222134900603" name="mefTerrain">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="mefObstacles20141222134843555" name="mefObstacles">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="mefObstacles20141222134843555" name="mefObstacles">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="mora20140725140447821" name="Minimum Off-Route Altitude (MORA)">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="mora20140725140447821" name="Minimum Off-Route Altitude (MORA)">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Instrument Plates">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Instrument Plates">
         <customproperties/>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" name="SFO">
           <customproperties/>
@@ -470,11 +470,11 @@
           </layer-tree-layer>
         </layer-tree-group>
       </layer-tree-group>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Charts">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Charts">
         <customproperties/>
         <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Enroute">
           <customproperties/>
-          <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Low IFR">
+          <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Low IFR">
             <customproperties/>
             <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Area">
               <customproperties/>
@@ -969,27 +969,30 @@
         </layer-tree-group>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Sectionals">
           <customproperties/>
-          <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Insets">
+          <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Insets">
             <customproperties/>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Dutch_Harbor_Inset20150329215250388" name="Dutch_Harbor_Inset">
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Pribilof_Islands_Inset20151215113910221" name="Pribilof_Islands_Inset">
               <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Jacksonville_Inset20150329215250354" name="Jacksonville_Inset">
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Norfolk_Inset20151215113909976" name="Norfolk_Inset">
               <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Juneau_Inset20150329215250320" name="Juneau_Inset">
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Kodiak_Inset20151215113909904" name="Kodiak_Inset">
               <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Ketchikan_Inset20150329215250285" name="Ketchikan_Inset">
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Ketchikan_Inset20151215113909685" name="Ketchikan_Inset">
               <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Kodiak_Inset20150329215250250" name="Kodiak_Inset">
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Juneau_Inset20151215113909395" name="Juneau_Inset">
               <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Norfolk_Inset20150329215250142" name="Norfolk_Inset">
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Jacksonville_Inset20151215113909338" name="Jacksonville_Inset">
               <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Pribilof_Islands_Inset20150329215250055" name="Pribilof_Islands_Inset">
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Florida_Keys_Inset20151215113909195" name="Florida_Keys_Inset">
+              <customproperties/>
+            </layer-tree-layer>
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Dutch_Harbor_Inset20151215113909029" name="Dutch_Harbor_Inset">
               <customproperties/>
             </layer-tree-layer>
           </layer-tree-group>
@@ -1243,35 +1246,38 @@
           <property key="overview" value="1"/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="U_S__VFR_Wall_Planning_Chart_420150630143539877" name="U.S. VFR Wall Planning Chart 4">
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="U_S__VFR_Wall_Planning_Chart_520151215120746606" name="U.S. VFR Wall Planning Chart 5">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Maps">
+      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Maps">
         <customproperties/>
-        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Graticules">
+        <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Graticules">
           <customproperties/>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="onefDegreeGraticulesAsLines20150302134040269" name="onefDegreeGraticulesAsLines">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="onefDegreeGraticulesAsLines20150302134040269" name="onefDegreeGraticulesAsLines">
             <customproperties/>
           </layer-tree-layer>
           <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="halfDegreeGraticulesAsPolygons20141212153318682" name="halfDegreeGraticulesAsPolygons">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="halfDegreeGraticulesAsLines20150302134003168" name="halfDegreeGraticulesAsLines">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="halfDegreeGraticulesAsLines20150302134003168" name="halfDegreeGraticulesAsLines">
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Web Maps">
+        <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Web Maps">
           <customproperties/>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150402052226855" name="Stamen Terrain-USA/OSM">
+          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OSM_Mapnik20151231084456355" name="OSM Mapnik">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150401140129415" name="Google Streets">
+          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OSM_TF_Landscape20151231084652611" name="OSM TF Landscape">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150326092049146" name="Google Hybrid">
+          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Landsat__Gis_Lab_info_20151231084908592" name="Landsat (Gis-Lab.info)">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150103114321887" name="OCM Landscape">
+          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="MapQuest_OSM20151231084936696" name="MapQuest OSM">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="OSM_TF_Outdoors20151231085159565" name="OSM TF Outdoors">
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
@@ -1436,10 +1442,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-14460568.39979986287653446</xmin>
-      <ymin>2474461.62808664608746767</ymin>
-      <xmax>-7117550.37033100984990597</xmax>
-      <ymax>6773559.71038111951202154</ymax>
+      <xmin>-14645456.9799965713173151</xmin>
+      <ymin>2350260.26495664473623037</ymin>
+      <xmax>-6956753.39297321997582912</xmax>
+      <ymax>6860505.03808101359754801</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -1463,12 +1469,14 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CJ_27_WAC20150325135315465"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="CcfpJSON20150602091836270"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Downtown_Manhattan_HEL20150325135344423"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Florida_Keys_Inset20151215113909195"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Charlotte_SEC20150325135236716"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="MtnPassJSON20150602092629464"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="mtr_mtr520150401101737005"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_L3420150325133840554"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Mexico_City_Area20151116173011827"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wichita_SEC20150325135229680"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="MapSurfer_ASTER_GDEM_SRTM_Hillshade20151231084804319"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_AKL03_FAI20150325133838387"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_L2520150325133840175"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_L3020150325133840385"/>
@@ -1481,6 +1489,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150401140129415"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="CwaJSON20150602091855231"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150103114321887"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Kodiak_Inset20151215113909904"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="OGRGeoJSON_Polygon20150602091956848"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_A02_DFW20150325133837727"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_land_ocean_label_points20150401125700759"/>
@@ -1502,8 +1511,10 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_L1620150325133839788"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_H0320150325133838681"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="PirepJSON20150602092719690"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_TF_Landscape20151231084652611"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="class_e520150323161110249"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_L0220150325133839148"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Dutch_Harbor_Inset20151215113909029"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="OGRGeoJSON_Point20150602092253515"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SFO_00375I28RC2_320150404112553982"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_P0120150325133840736"/>
@@ -1515,6 +1526,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="New_Orleans_SEC20150325135232265"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="FBWindsJSON20150602091915420"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_L0920150325133839490"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Pribilof_Islands_Inset20151215113910221"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="MetarSiteJSON20150602092543675"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_minor_islands_coastline20150401125700814"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Los_Angeles_East_HEL20150325135342885"/>
@@ -1529,6 +1541,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_A01_DET20150325133837451"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="nav_nav120140806223035684"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_geographic_lines20150401125700531"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_TF_Transport20151231085231077"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Boston_Downtown_HEL20150325135347118"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="class_c20131205212005456"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Albuquerque_SEC20150325135237696"/>
@@ -1539,6 +1552,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Fairbanks_SEC20150325135235200"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_ocean20150401125700871"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Denver_SEC20150325135235752"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Norfolk_Inset20151215113909976"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Baltimore_HEL20150325135347506"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="airspace20150320130912778"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ketchikan_SEC20150325135233787"/>
@@ -1550,6 +1564,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Honolulu_Inset_SEC20150325135234492"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_antarctic_ice_shelves_lines20150401125700280"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="apt_apt20140815144631373"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Jacksonville_Inset20151215113909338"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="OGRGeoJSON_Polygon20150602092114198"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150326092049146"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Detroit_TAC20150325135204365"/>
@@ -1558,6 +1573,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_H1020150325133838980"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="" srcDatumTransform="-1" destDatumTransform="-1" layerid="U_S__VFR_Wall_Planning_Chart_420150630143418230"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="apt_apt20140815144904818"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="U_S__VFR_Wall_Planning_Chart_520151215120746606"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Dallas_Ft_Worth_HEL20150325135345555"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="twr_twr120140817234600009"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CH_23_WAC20150325135316756"/>
@@ -1604,6 +1620,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_A01_ATL20150325133837283"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="metars_cache20140418162447642"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Lima_Area20151116173011719"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Landsat__Gis_Lab_info_20151231084908592"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_CL0120151116173010759"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BOS_00058AD20150404112513775"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ils_ils320140817215719836"/>
@@ -1654,11 +1671,14 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="San_Francisco_SEC20150325135231015"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Detroit_SEC20150325135235605"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SFO_00375I28LSAC220150404112553890"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Rosreestr_BaseMap20151231084957251"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="U_S__VFR_Wall_Planning_Chart20150619102300803"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="AirmetJSON20150602091655433"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="mora20140725140447821"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Central_America_Pacific_Ocean_Inset20151116173010365"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="fix_fix120140819090338021"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Grand_Canyon_General_Aviation20150325135503768"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_TF_OpenCycleMap20151231085148802"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Dallas_Love_Inset_HEL20150325135345181"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_L2020150325133839955"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="G_copy20140817233859128"/>
@@ -1675,10 +1695,12 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CH_25_WAC20150325135316192"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Samoan_Islands_Inset_SEC20150325135231302"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SFO_00375IL28R20150404112554274"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_Veloroad20151231085213104"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="apt_apt20140815142927689"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Atlanta_TAC20150325135205368"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CE_15_WAC20150325135319599"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_L3520150325133840595"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Juneau_Inset20151215113909395"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="OGRGeoJSON_Polygon20150602092254416"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="apt_rwy20140806222940041"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_ocean_scale_rank20150401125700860"/>
@@ -1697,6 +1719,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Minneapolis_St_Paul_TAC20150325135203605"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Dallas_Ft_Worth_SEC20150325135236026"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="mergedTfrs20140418162128320"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="MapQuest_OSM20151231084936696"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_L1820150325133839874"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Eastern_Long_Island_HEL20150325135344019"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_glaciated_areas20150401125700596"/>
@@ -1782,6 +1805,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="St_Louis_SEC20150325135230611"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Washington_HEL20150325135341332"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Seattle_TAC20150325135202457"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ketchikan_Inset20151215113909685"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Las_Vegas_SEC20150325135233236"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Antigua_Island_Ascension_Island_Inset20151116173009661"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_lakes_north_america20150401125700719"/>
@@ -1800,6 +1824,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Victor_copy20140817233550540"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="MisJSON20150602092608393"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_AKL0420150325133838548"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="mtr_mtrlines20160114101506745"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="AirportJSON20150602091712500"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_A01_MIA20150325133837529"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="watrs20150325133840900"/>
@@ -1807,6 +1832,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ils_ils420140817215723923"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="CJ_26_WAC20150325135315895"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="awy_awysegments20140817233208643"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_TF_Outdoors20151231085159565"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="artccGeometry20150403120712803"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Chicago_HEL20150325135346328"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_bathymetry_K_20020150401125700482"/>
@@ -1856,6 +1882,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="ENR_L2620150325133840217"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Chicago_O_Hare_Inset_HEL20150325135345941"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Dominican_Republic_Puerto_Rico_Area20151116173010539"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_Mapnik20151231084456355"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
@@ -1904,7 +1931,6 @@
       <item>mergedTfrs20140418162128320</item>
       <item>nav_nav120140806223035684</item>
       <item>mtr_mtr520150401101737005</item>
-      <item>mtr20150331204944020</item>
       <item>MTR_MTR120140819084111469</item>
       <item>MTR_MTR220140819084111531</item>
       <item>MTR_MTR420140819084111582</item>
@@ -2119,13 +2145,6 @@
       <item>Washington_Inset_HEL20150325135340820</item>
       <item>Grand_Canyon_Air_Tour_Operators20150325135504166</item>
       <item>Grand_Canyon_General_Aviation20150325135503768</item>
-      <item>Dutch_Harbor_Inset20150329215250388</item>
-      <item>Jacksonville_Inset20150329215250354</item>
-      <item>Juneau_Inset20150329215250320</item>
-      <item>Ketchikan_Inset20150329215250285</item>
-      <item>Kodiak_Inset20150329215250250</item>
-      <item>Norfolk_Inset20150329215250142</item>
-      <item>Pribilof_Islands_Inset20150329215250055</item>
       <item>Albuquerque_SEC20150325135237696</item>
       <item>Anchorage_SEC20150325135237559</item>
       <item>Atlanta_SEC20150325135237405</item>
@@ -2210,10 +2229,6 @@
       <item>onefDegreeGraticulesAsLines20150302134040269</item>
       <item>halfDegreeGraticulesAsPolygons20141212153318682</item>
       <item>halfDegreeGraticulesAsLines20150302134003168</item>
-      <item>OpenLayers_plugin_layer20150402052226855</item>
-      <item>OpenLayers_plugin_layer20150401140129415</item>
-      <item>OpenLayers_plugin_layer20150326092049146</item>
-      <item>OpenLayers_plugin_layer20150103114321887</item>
       <item>ne_10m_antarctic_ice_shelves_lines20150401125700280</item>
       <item>ne_10m_antarctic_ice_shelves_polys20150401125700303</item>
       <item>ne_10m_bathymetry_A_1000020150401125700341</item>
@@ -2262,7 +2277,6 @@
       <item>ne_10m_coastline20150401125700517</item>
       <item>ne_10m_land20150401125700803</item>
       <item>ne_10m_ocean20150401125700871</item>
-      <item>U_S__VFR_Wall_Planning_Chart_420150630143539877</item>
       <item>Antigua_Island_Ascension_Island_Inset20151116173009661</item>
       <item>Bogota_area20151116173009913</item>
       <item>Buenos_Aires_Area20151116173010140</item>
@@ -2280,6 +2294,21 @@
       <item>Panama_Area20151116173012105</item>
       <item>Rio_De_Janeiro_Area20151116173012162</item>
       <item>Santiago_Area20151116173012272</item>
+      <item>Dutch_Harbor_Inset20151215113909029</item>
+      <item>Florida_Keys_Inset20151215113909195</item>
+      <item>Jacksonville_Inset20151215113909338</item>
+      <item>Juneau_Inset20151215113909395</item>
+      <item>Ketchikan_Inset20151215113909685</item>
+      <item>Kodiak_Inset20151215113909904</item>
+      <item>Norfolk_Inset20151215113909976</item>
+      <item>Pribilof_Islands_Inset20151215113910221</item>
+      <item>U_S__VFR_Wall_Planning_Chart_520151215120746606</item>
+      <item>OSM_Mapnik20151231084456355</item>
+      <item>OSM_TF_Landscape20151231084652611</item>
+      <item>Landsat__Gis_Lab_info_20151231084908592</item>
+      <item>MapQuest_OSM20151231084936696</item>
+      <item>OSM_TF_Outdoors20151231085159565</item>
+      <item>mtr_mtrlines20160114101506745</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -2514,16 +2543,16 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Unchecked" name="Airways">
-      <legendgroup open="true" checked="Qt::Unchecked" name="Military Training Routes">
+    <legendgroup open="false" checked="Qt::PartiallyChecked" name="Airways">
+      <legendgroup open="true" checked="Qt::PartiallyChecked" name="Military Training Routes">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="mtr_mtr5" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="mtr_mtr520150401101737005" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="mtr" showFeatureCount="0">
-          <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="mtr20150331204944020" visible="0"/>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="mtr_mtrlines" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="mtr_mtrlines20160114101506745" visible="1"/>
           </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="MTR_MTR1" showFeatureCount="0">
@@ -2863,24 +2892,24 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="false" checked="Qt::Unchecked" name="Maximum Elevation figure (MEF)">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="mefTerrain" showFeatureCount="0">
+      <legendgroup open="true" checked="Qt::Checked" name="Maximum Elevation figure (MEF)">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="mefTerrain" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="mefTerrain20141222134900603" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="mefTerrain20141222134900603" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="mefObstacles" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="mefObstacles" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="mefObstacles20141222134843555" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="mefObstacles20141222134843555" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Minimum Off-Route Altitude (MORA)" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Minimum Off-Route Altitude (MORA)" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="mora20140725140447821" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="mora20140725140447821" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendgroup open="false" checked="Qt::Unchecked" name="Instrument Plates">
+      <legendgroup open="true" checked="Qt::Unchecked" name="Instrument Plates">
         <legendgroup open="false" checked="Qt::Unchecked" name="SFO">
           <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="SFO-00375RZ28R" showFeatureCount="0">
             <filegroup open="true" hidden="false">
@@ -2960,9 +2989,9 @@
           </legendlayer>
         </legendgroup>
       </legendgroup>
-      <legendgroup open="false" checked="Qt::Unchecked" name="Charts">
+      <legendgroup open="true" checked="Qt::Unchecked" name="Charts">
         <legendgroup open="true" checked="Qt::Unchecked" name="Enroute">
-          <legendgroup open="true" checked="Qt::Unchecked" name="Low IFR">
+          <legendgroup open="false" checked="Qt::Unchecked" name="Low IFR">
             <legendgroup open="false" checked="Qt::Unchecked" name="Area">
               <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Santiago_Area" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
@@ -3751,40 +3780,45 @@
           </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="Sectionals">
-          <legendgroup open="true" checked="Qt::Unchecked" name="Insets">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Dutch_Harbor_Inset" showFeatureCount="0">
+          <legendgroup open="false" checked="Qt::Unchecked" name="Insets">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Pribilof_Islands_Inset" showFeatureCount="0">
               <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Dutch_Harbor_Inset20150329215250388" visible="0"/>
-              </filegroup>
-            </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Jacksonville_Inset" showFeatureCount="0">
-              <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Jacksonville_Inset20150329215250354" visible="0"/>
-              </filegroup>
-            </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Juneau_Inset" showFeatureCount="0">
-              <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Juneau_Inset20150329215250320" visible="0"/>
-              </filegroup>
-            </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Ketchikan_Inset" showFeatureCount="0">
-              <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Ketchikan_Inset20150329215250285" visible="0"/>
-              </filegroup>
-            </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Kodiak_Inset" showFeatureCount="0">
-              <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Kodiak_Inset20150329215250250" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="Pribilof_Islands_Inset20151215113910221" visible="0"/>
               </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Norfolk_Inset" showFeatureCount="0">
               <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Norfolk_Inset20150329215250142" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="Norfolk_Inset20151215113909976" visible="0"/>
               </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Pribilof_Islands_Inset" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Kodiak_Inset" showFeatureCount="0">
               <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Pribilof_Islands_Inset20150329215250055" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="Kodiak_Inset20151215113909904" visible="0"/>
+              </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Ketchikan_Inset" showFeatureCount="0">
+              <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Ketchikan_Inset20151215113909685" visible="0"/>
+              </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Juneau_Inset" showFeatureCount="0">
+              <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Juneau_Inset20151215113909395" visible="0"/>
+              </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Jacksonville_Inset" showFeatureCount="0">
+              <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Jacksonville_Inset20151215113909338" visible="0"/>
+              </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Florida_Keys_Inset" showFeatureCount="0">
+              <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Florida_Keys_Inset20151215113909195" visible="0"/>
+              </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Dutch_Harbor_Inset" showFeatureCount="0">
+              <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Dutch_Harbor_Inset20151215113909029" visible="0"/>
               </filegroup>
             </legendlayer>
           </legendgroup>
@@ -4197,16 +4231,16 @@
           <legendlayerfile isInOverview="1" layerid="U_S__VFR_Wall_Planning_Chart20150422105211711" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="U.S. VFR Wall Planning Chart 4" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="U.S. VFR Wall Planning Chart 5" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="U_S__VFR_Wall_Planning_Chart_420150630143539877" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="U_S__VFR_Wall_Planning_Chart_520151215120746606" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendgroup open="false" checked="Qt::Unchecked" name="Maps">
-        <legendgroup open="false" checked="Qt::Unchecked" name="Graticules">
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="onefDegreeGraticulesAsLines" showFeatureCount="0">
+      <legendgroup open="true" checked="Qt::PartiallyChecked" name="Maps">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Graticules">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="onefDegreeGraticulesAsLines" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="onefDegreeGraticulesAsLines20150302134040269" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="onefDegreeGraticulesAsLines20150302134040269" visible="1"/>
             </filegroup>
           </legendlayer>
           <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="halfDegreeGraticulesAsPolygons" showFeatureCount="0">
@@ -4214,31 +4248,36 @@
               <legendlayerfile isInOverview="0" layerid="halfDegreeGraticulesAsPolygons20141212153318682" visible="0"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="halfDegreeGraticulesAsLines" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="halfDegreeGraticulesAsLines" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="halfDegreeGraticulesAsLines20150302134003168" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="halfDegreeGraticulesAsLines20150302134003168" visible="1"/>
             </filegroup>
           </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Unchecked" name="Web Maps">
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Stamen Terrain-USA/OSM" showFeatureCount="0">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Web Maps">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OSM Mapnik" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150402052226855" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="OSM_Mapnik20151231084456355" visible="0"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Streets" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OSM TF Landscape" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150401140129415" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="OSM_TF_Landscape20151231084652611" visible="0"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Hybrid" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Landsat (Gis-Lab.info)" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150326092049146" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Landsat__Gis_Lab_info_20151231084908592" visible="0"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OCM Landscape" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="MapQuest OSM" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150103114321887" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="MapQuest_OSM20151231084936696" visible="0"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OSM TF Outdoors" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile isInOverview="0" layerid="OSM_TF_Outdoors20151231085159565" visible="1"/>
             </filegroup>
           </legendlayer>
         </legendgroup>
@@ -5672,7 +5711,7 @@
     </Composition>
     <Atlas hideCoverage="false" coverageLayer="" singleFile="false" filenamePattern="'output_'||$feature" enabled="true" filterFeatures="false" sortFeatures="false" pageNameExpression=""/>
   </Composer>
-  <projectlayers layercount="420">
+  <projectlayers layercount="422">
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>AirepJSON20150602091604246</id>
       <datasource>http://aviationweather.gov/gis/scripts/AirepJSON.php</datasource>
@@ -5729,10 +5768,7 @@
         <edittype widgetv2type="TextEdit" name="tbInt1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="tbType1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="temp">
+        <edittype widgetv2type="TextEdit" name="tbFreq1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="icgInt1">
@@ -5741,10 +5777,13 @@
         <edittype widgetv2type="TextEdit" name="icgType1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="temp">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="cloudTop1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="wxString">
+        <edittype widgetv2type="TextEdit" name="tbType1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="wdir">
@@ -5753,7 +5792,7 @@
         <edittype widgetv2type="TextEdit" name="wspd">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="tbFreq1">
+        <edittype widgetv2type="TextEdit" name="wxString">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -5993,10 +6032,7 @@
         <edittype widgetv2type="TextEdit" name="tbInt1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="tbType1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="temp">
+        <edittype widgetv2type="TextEdit" name="tbFreq1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="icgInt1">
@@ -6005,10 +6041,13 @@
         <edittype widgetv2type="TextEdit" name="icgType1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="temp">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="cloudTop1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="wxString">
+        <edittype widgetv2type="TextEdit" name="tbType1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="wdir">
@@ -6017,7 +6056,7 @@
         <edittype widgetv2type="TextEdit" name="wspd">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="tbFreq1">
+        <edittype widgetv2type="TextEdit" name="wxString">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -6072,13 +6111,13 @@
         <edittype widgetv2type="TextEdit" name="altitudeLow1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="altitudeLow2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="altitudeHi2">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="rawAirSigmet">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="altitudeLow2">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -6403,13 +6442,13 @@
         <edittype widgetv2type="TextEdit" name="altitudeLow1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="altitudeLow2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="altitudeHi2">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="rawAirSigmet">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="altitudeLow2">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -9297,16 +9336,13 @@
         <edittype widgetv2type="TextEdit" name="cwaText">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="top">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol">
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="244,156,224,255"/>
+              <prop k="color" v="81,101,173,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -9529,9 +9565,6 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cwaText">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="top">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -10065,8 +10098,8 @@
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <id>Dutch_Harbor_Inset20150329215250388</id>
-      <datasource>../mergedCharts/insets/Dutch_Harbor_Inset.tif</datasource>
+      <id>Dutch_Harbor_Inset20151215113909029</id>
+      <datasource>/home/jlmcgraw/Documents/myPrograms/mergedCharts/warpedRasters/insets/Dutch_Harbor_Inset.tif</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -14897,6 +14930,50 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>Florida_Keys_Inset20151215113909195</id>
+      <datasource>/home/jlmcgraw/Documents/myPrograms/mergedCharts/warpedRasters/insets/Florida_Keys_Inset.tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Florida_Keys_Inset</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>G_copy20140817233859128</id>
       <datasource>dbname='./data/databases/spatial56day.db' table="awy_awysegments" (airwaygeom) sql="airway_designation" LIKE 'B%'</datasource>
@@ -17128,8 +17205,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <id>Jacksonville_Inset20150329215250354</id>
-      <datasource>../mergedCharts/insets/Jacksonville_Inset.tif</datasource>
+      <id>Jacksonville_Inset20151215113909338</id>
+      <datasource>/home/jlmcgraw/Documents/myPrograms/mergedCharts/warpedRasters/insets/Jacksonville_Inset.tif</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -17216,8 +17293,8 @@
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <id>Juneau_Inset20150329215250320</id>
-      <datasource>../mergedCharts/insets/Juneau_Inset.tif</datasource>
+      <id>Juneau_Inset20151215113909395</id>
+      <datasource>/home/jlmcgraw/Documents/myPrograms/mergedCharts/warpedRasters/insets/Juneau_Inset.tif</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -17392,8 +17469,8 @@
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <id>Ketchikan_Inset20150329215250285</id>
-      <datasource>../mergedCharts/insets/Ketchikan_Inset.tif</datasource>
+      <id>Ketchikan_Inset20151215113909685</id>
+      <datasource>/home/jlmcgraw/Documents/myPrograms/mergedCharts/warpedRasters/insets/Ketchikan_Inset.tif</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -17524,8 +17601,8 @@
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <id>Kodiak_Inset20150329215250250</id>
-      <datasource>../mergedCharts/insets/Kodiak_Inset.tif</datasource>
+      <id>Kodiak_Inset20151215113909904</id>
+      <datasource>/home/jlmcgraw/Documents/myPrograms/mergedCharts/warpedRasters/insets/Kodiak_Inset.tif</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -17654,6 +17731,43 @@
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="PyTiledLayer">
+      <id>Landsat__Gis_Lab_info_20151231084908592</id>
+      <datasource>.</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Landsat (Gis-Lab.info)</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="blendMode" value="SourceOver"/>
+        <property key="brigthness" value="0"/>
+        <property key="contrast" value="1"/>
+        <property key="credit" value=""/>
+        <property key="creditVisibility" value="0"/>
+        <property key="grayscaleRender" value="0"/>
+        <property key="serviceUrl" value="http://irs.gis-lab.info/?layers=landsat&amp;request=GetTile&amp;z={z}&amp;x={x}&amp;y={y}"/>
+        <property key="smoothRender" value="1"/>
+        <property key="title" value="Landsat (Gis-Lab.info)"/>
+        <property key="transparency" value="0"/>
+        <property key="yOriginTop" value="1"/>
+        <property key="zmax" value="18"/>
+        <property key="zmin" value="0"/>
+      </customproperties>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Las_Vegas_SEC20150325135233236</id>
@@ -18629,6 +18743,44 @@
         </edittype>
       </edittypes>
     </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="PyTiledLayer">
+      <id>MapQuest_OSM20151231084936696</id>
+      <datasource>.</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <attribution href="http://www.mapquest.com">Tiles Courtesy of MapQuest, ©OpenStreetMap contributors</attribution>
+      <layername>MapQuest OSM</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="blendMode" value="SourceOver"/>
+        <property key="brigthness" value="0"/>
+        <property key="contrast" value="1"/>
+        <property key="credit" value="Tiles Courtesy of MapQuest, ©OpenStreetMap contributors"/>
+        <property key="creditVisibility" value="0"/>
+        <property key="grayscaleRender" value="0"/>
+        <property key="serviceUrl" value="http://otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg"/>
+        <property key="smoothRender" value="1"/>
+        <property key="title" value="MapQuest OSM"/>
+        <property key="transparency" value="0"/>
+        <property key="yOriginTop" value="1"/>
+        <property key="zmax" value="19"/>
+        <property key="zmin" value="0"/>
+      </customproperties>
+    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Mariana_Islands_Inset_SEC20150325135232951</id>
       <datasource>/home/jlmcgraw/Documents/myPrograms/mergedCharts/warpedRasters/sectional/Mariana_Islands_Inset_SEC.tif</datasource>
@@ -18855,13 +19007,7 @@
         <edittype widgetv2type="TextEdit" name="wspd">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="wgst">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="wdir">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ceil">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cover">
@@ -18879,10 +19025,16 @@
         <edittype widgetv2type="TextEdit" name="slp">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="wx">
+        <edittype widgetv2type="TextEdit" name="rawOb">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="rawOb">
+        <edittype widgetv2type="TextEdit" name="wgst">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ceil">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wx">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -19230,13 +19382,7 @@
         <edittype widgetv2type="TextEdit" name="wspd">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="wgst">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="wdir">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ceil">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cover">
@@ -19254,10 +19400,16 @@
         <edittype widgetv2type="TextEdit" name="slp">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="wx">
+        <edittype widgetv2type="TextEdit" name="rawOb">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="rawOb">
+        <edittype widgetv2type="TextEdit" name="wgst">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ceil">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wx">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -20986,8 +21138,8 @@
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <id>Norfolk_Inset20150329215250142</id>
-      <datasource>../mergedCharts/insets/Norfolk_Inset.tif</datasource>
+      <id>Norfolk_Inset20151215113909976</id>
+      <datasource>/home/jlmcgraw/Documents/myPrograms/mergedCharts/warpedRasters/insets/Norfolk_Inset.tif</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -25062,6 +25214,120 @@
         </edittype>
       </edittypes>
     </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="PyTiledLayer">
+      <id>OSM_Mapnik20151231084456355</id>
+      <datasource>.</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <attribution href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</attribution>
+      <layername>OSM Mapnik</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="blendMode" value="SourceOver"/>
+        <property key="brigthness" value="0"/>
+        <property key="contrast" value="1"/>
+        <property key="credit" value="© OpenStreetMap contributors, CC-BY-SA"/>
+        <property key="creditVisibility" value="0"/>
+        <property key="grayscaleRender" value="0"/>
+        <property key="serviceUrl" value="http://tile.openstreetmap.org/{z}/{x}/{y}.png"/>
+        <property key="smoothRender" value="1"/>
+        <property key="title" value="OSM Mapnik"/>
+        <property key="transparency" value="0"/>
+        <property key="yOriginTop" value="1"/>
+        <property key="zmax" value="19"/>
+        <property key="zmin" value="0"/>
+      </customproperties>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="PyTiledLayer">
+      <id>OSM_TF_Landscape20151231084652611</id>
+      <datasource>.</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <attribution href="https://www.openstreetmap.org/copyright">Maps © Thunderforest, Data © OpenStreetMap contributors</attribution>
+      <layername>OSM TF Landscape</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="blendMode" value="SourceOver"/>
+        <property key="brigthness" value="0"/>
+        <property key="contrast" value="1"/>
+        <property key="credit" value="Maps © Thunderforest, Data © OpenStreetMap contributors"/>
+        <property key="creditVisibility" value="0"/>
+        <property key="grayscaleRender" value="0"/>
+        <property key="serviceUrl" value="http://tile.thunderforest.com/outdoors/{z}/{x}/{y}.png"/>
+        <property key="smoothRender" value="1"/>
+        <property key="title" value="OSM TF Landscape"/>
+        <property key="transparency" value="0"/>
+        <property key="yOriginTop" value="1"/>
+        <property key="zmax" value="19"/>
+        <property key="zmin" value="0"/>
+      </customproperties>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="PyTiledLayer">
+      <id>OSM_TF_Outdoors20151231085159565</id>
+      <datasource>.</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <attribution href="https://www.openstreetmap.org/copyright">Maps © Thunderforest, Data © OpenStreetMap contributors</attribution>
+      <layername>OSM TF Outdoors</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="blendMode" value="SourceOver"/>
+        <property key="brigthness" value="0"/>
+        <property key="contrast" value="1"/>
+        <property key="credit" value="Maps © Thunderforest, Data © OpenStreetMap contributors"/>
+        <property key="creditVisibility" value="0"/>
+        <property key="grayscaleRender" value="0"/>
+        <property key="serviceUrl" value="http://tile.thunderforest.com/outdoors/{z}/{x}/{y}.png"/>
+        <property key="smoothRender" value="1"/>
+        <property key="title" value="OSM TF Outdoors"/>
+        <property key="transparency" value="0"/>
+        <property key="yOriginTop" value="1"/>
+        <property key="zmax" value="19"/>
+        <property key="zmin" value="0"/>
+      </customproperties>
+    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Omaha_SEC20150325135231855</id>
       <datasource>/home/jlmcgraw/Documents/myPrograms/mergedCharts/warpedRasters/sectional/Omaha_SEC.tif</datasource>
@@ -25105,106 +25371,6 @@
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
-      <id>OpenLayers_plugin_layer20150103114321887</id>
-      <datasource>.</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>OCM Landscape</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="ol_layer_type" value="OCM Landscape"/>
-      </customproperties>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
-      <id>OpenLayers_plugin_layer20150326092049146</id>
-      <datasource>.</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Google Hybrid</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="ol_layer_type" value="Google Hybrid"/>
-      </customproperties>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
-      <id>OpenLayers_plugin_layer20150401140129415</id>
-      <datasource>.</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Google Streets</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="ol_layer_type" value="Google Streets"/>
-      </customproperties>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
-      <id>OpenLayers_plugin_layer20150402052226855</id>
-      <datasource>.</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Stamen Terrain-USA/OSM</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="ol_layer_type" value="Stamen Terrain-USA/OSM"/>
-      </customproperties>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Orlando_TAC20150325135203308</id>
@@ -25467,28 +25633,22 @@
         <edittype widgetv2type="TextEdit" name="acType">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="fltlvl">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="tbInt1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="tbType1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="tbFreq1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="rawOb">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="cloudCvg1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cloudBas1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="temp">
+        <edittype widgetv2type="TextEdit" name="fltlvl">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="rawOb">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="tbInt1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="tbFreq1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="icgInt1">
@@ -25497,7 +25657,13 @@
         <edittype widgetv2type="TextEdit" name="icgType1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="temp">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="cloudTop1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="tbType1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="wdir">
@@ -25820,28 +25986,22 @@
         <edittype widgetv2type="TextEdit" name="acType">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="fltlvl">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="tbInt1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="tbType1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="tbFreq1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="rawOb">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="cloudCvg1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cloudBas1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="temp">
+        <edittype widgetv2type="TextEdit" name="fltlvl">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="rawOb">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="tbInt1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="tbFreq1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="icgInt1">
@@ -25850,7 +26010,13 @@
         <edittype widgetv2type="TextEdit" name="icgType1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="temp">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="cloudTop1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="tbType1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="wdir">
@@ -25949,9 +26115,9 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <id>Pribilof_Islands_Inset20150329215250055</id>
-      <datasource>../mergedCharts/insets/Pribilof_Islands_Inset.tif</datasource>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>Pribilof_Islands_Inset20151215113910221</id>
+      <datasource>/home/jlmcgraw/Documents/myPrograms/mergedCharts/warpedRasters/insets/Pribilof_Islands_Inset.tif</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -25989,7 +26155,7 @@
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear" zoomedInResampler="bilinear"/>
+        <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
@@ -27356,7 +27522,7 @@
         <edittype widgetv2type="TextEdit" name="severity">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="altitudeHi1">
+        <edittype widgetv2type="TextEdit" name="altitudeLow1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="altitudeHi2">
@@ -27365,13 +27531,16 @@
         <edittype widgetv2type="TextEdit" name="rawAirSigmet">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="altitudeHi1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol">
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="137,112,211,255"/>
+              <prop k="color" v="174,203,123,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -27587,13 +27756,16 @@
         <edittype widgetv2type="TextEdit" name="severity">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="altitudeHi1">
+        <edittype widgetv2type="TextEdit" name="altitudeLow1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="altitudeHi2">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="rawAirSigmet">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="altitudeHi1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -29294,6 +29466,9 @@
         <edittype widgetv2type="TextEdit" name="visib">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="wx">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="ceil">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -29304,9 +29479,6 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="rawTAF">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="wx">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="wgst">
@@ -29682,6 +29854,9 @@
         <edittype widgetv2type="TextEdit" name="visib">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="wx">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="ceil">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -29692,9 +29867,6 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="rawTAF">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="wx">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="wgst">
@@ -29878,15 +30050,15 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <id>U_S__VFR_Wall_Planning_Chart_420150630143539877</id>
-      <datasource>./data/U.S. VFR Wall Planning Chart 4.tif</datasource>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>U_S__VFR_Wall_Planning_Chart_520151215120746606</id>
+      <datasource>./data/U.S. VFR Wall Planning Chart 5.tif</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>U.S. VFR Wall Planning Chart 4</layername>
+      <layername>U.S. VFR Wall Planning Chart 5</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=lcc +lat_1=45 +lat_2=33 +lat_0=38 +lon_0=-100 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs</proj4>
@@ -29910,7 +30082,7 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="paletted">
+        <rasterrenderer opacity="1" alphaBand="0" band="1" type="paletted">
           <rasterTransparency/>
           <colorPalette>
             <paletteEntry value="0" color="#ffffff" label="0"/>
@@ -29932,238 +30104,238 @@
             <paletteEntry value="16" color="#bcc4aa" label="16"/>
             <paletteEntry value="17" color="#b8c4aa" label="17"/>
             <paletteEntry value="18" color="#b8c0a6" label="18"/>
-            <paletteEntry value="19" color="#db9099" label="19"/>
-            <paletteEntry value="20" color="#7c6367" label="20"/>
-            <paletteEntry value="21" color="#5e3c47" label="21"/>
-            <paletteEntry value="22" color="#a87183" label="22"/>
-            <paletteEntry value="23" color="#dab5c2" label="23"/>
-            <paletteEntry value="24" color="#2a0e18" label="24"/>
-            <paletteEntry value="25" color="#9f5b73" label="25"/>
-            <paletteEntry value="26" color="#ba5c80" label="26"/>
+            <paletteEntry value="19" color="#7c6467" label="19"/>
+            <paletteEntry value="20" color="#5d3d46" label="20"/>
+            <paletteEntry value="21" color="#a87183" label="21"/>
+            <paletteEntry value="22" color="#dab5c1" label="22"/>
+            <paletteEntry value="23" color="#2a0e18" label="23"/>
+            <paletteEntry value="24" color="#9f5b74" label="24"/>
+            <paletteEntry value="25" color="#853a57" label="25"/>
+            <paletteEntry value="26" color="#bb5b81" label="26"/>
             <paletteEntry value="27" color="#780837" label="27"/>
             <paletteEntry value="28" color="#c66d91" label="28"/>
-            <paletteEntry value="29" color="#a94371" label="29"/>
-            <paletteEntry value="30" color="#944267" label="30"/>
-            <paletteEntry value="31" color="#640934" label="31"/>
-            <paletteEntry value="32" color="#882656" label="32"/>
+            <paletteEntry value="29" color="#944166" label="29"/>
+            <paletteEntry value="30" color="#640834" label="30"/>
+            <paletteEntry value="31" color="#a64473" label="31"/>
+            <paletteEntry value="32" color="#882456" label="32"/>
             <paletteEntry value="33" color="#c995af" label="33"/>
             <paletteEntry value="34" color="#420d2a" label="34"/>
-            <paletteEntry value="35" color="#6a5661" label="35"/>
-            <paletteEntry value="36" color="#770c49" label="36"/>
+            <paletteEntry value="35" color="#770c49" label="35"/>
+            <paletteEntry value="36" color="#695762" label="36"/>
             <paletteEntry value="37" color="#b68fac" label="37"/>
             <paletteEntry value="38" color="#c2a8bb" label="38"/>
             <paletteEntry value="39" color="#7e627a" label="39"/>
-            <paletteEntry value="40" color="#e9d8e8" label="40"/>
-            <paletteEntry value="41" color="#180818" label="41"/>
-            <paletteEntry value="42" color="#584858" label="42"/>
-            <paletteEntry value="43" color="#f8e8f8" label="43"/>
-            <paletteEntry value="44" color="#c5b6ca" label="44"/>
-            <paletteEntry value="45" color="#79787c" label="45"/>
-            <paletteEntry value="46" color="#080818" label="46"/>
-            <paletteEntry value="47" color="#48485a" label="47"/>
-            <paletteEntry value="48" color="#e8e8f8" label="48"/>
-            <paletteEntry value="49" color="#282829" label="49"/>
-            <paletteEntry value="50" color="#d5d5d8" label="50"/>
-            <paletteEntry value="51" color="#363864" label="51"/>
-            <paletteEntry value="52" color="#67687b" label="52"/>
-            <paletteEntry value="53" color="#575868" label="53"/>
-            <paletteEntry value="54" color="#080e56" label="54"/>
-            <paletteEntry value="55" color="#08156d" label="55"/>
-            <paletteEntry value="56" color="#a0a4b9" label="56"/>
-            <paletteEntry value="57" color="#929398" label="57"/>
-            <paletteEntry value="58" color="#0837ad" label="58"/>
-            <paletteEntry value="59" color="#083289" label="59"/>
-            <paletteEntry value="60" color="#082f75" label="60"/>
-            <paletteEntry value="61" color="#0854af" label="61"/>
-            <paletteEntry value="62" color="#081729" label="62"/>
-            <paletteEntry value="63" color="#0c4888" label="63"/>
-            <paletteEntry value="64" color="#1c4572" label="64"/>
-            <paletteEntry value="65" color="#106dca" label="65"/>
-            <paletteEntry value="66" color="#2a5989" label="66"/>
-            <paletteEntry value="67" color="#c0d7ee" label="67"/>
-            <paletteEntry value="68" color="#d8e8f8" label="68"/>
-            <paletteEntry value="69" color="#3b6890" label="69"/>
-            <paletteEntry value="70" color="#a3c8e9" label="70"/>
-            <paletteEntry value="71" color="#1668ad" label="71"/>
-            <paletteEntry value="72" color="#296da4" label="72"/>
-            <paletteEntry value="73" color="#437cac" label="73"/>
-            <paletteEntry value="74" color="#7e97ac" label="74"/>
-            <paletteEntry value="75" color="#17588b" label="75"/>
-            <paletteEntry value="76" color="#618fb1" label="76"/>
-            <paletteEntry value="77" color="#8fb2ce" label="77"/>
-            <paletteEntry value="78" color="#75a5c6" label="78"/>
-            <paletteEntry value="79" color="#738999" label="79"/>
-            <paletteEntry value="80" color="#517c96" label="80"/>
-            <paletteEntry value="81" color="#aac6d8" label="81"/>
-            <paletteEntry value="82" color="#c8e8f8" label="82"/>
-            <paletteEntry value="83" color="#37393a" label="83"/>
-            <paletteEntry value="84" color="#d8e3e8" label="84"/>
-            <paletteEntry value="85" color="#556a6f" label="85"/>
-            <paletteEntry value="86" color="#667b80" label="86"/>
-            <paletteEntry value="87" color="#a2b8b9" label="87"/>
-            <paletteEntry value="88" color="#081818" label="88"/>
-            <paletteEntry value="89" color="#c8f8f8" label="89"/>
-            <paletteEntry value="90" color="#475858" label="90"/>
-            <paletteEntry value="91" color="#c8e8e8" label="91"/>
-            <paletteEntry value="92" color="#d8f8f8" label="92"/>
-            <paletteEntry value="93" color="#e8f8f8" label="93"/>
-            <paletteEntry value="94" color="#b7d9d8" label="94"/>
-            <paletteEntry value="95" color="#8ea9a8" label="95"/>
-            <paletteEntry value="96" color="#a6cac8" label="96"/>
-            <paletteEntry value="97" color="#d7f8e8" label="97"/>
-            <paletteEntry value="98" color="#a8c8b8" label="98"/>
-            <paletteEntry value="99" color="#c5f8d8" label="99"/>
-            <paletteEntry value="100" color="#a7d8b0" label="100"/>
-            <paletteEntry value="101" color="#a4b8a8" label="101"/>
-            <paletteEntry value="102" color="#b8c8bb" label="102"/>
-            <paletteEntry value="103" color="#b8d8b9" label="103"/>
-            <paletteEntry value="104" color="#c7e8c8" label="104"/>
-            <paletteEntry value="105" color="#081808" label="105"/>
-            <paletteEntry value="106" color="#b8e8b8" label="106"/>
-            <paletteEntry value="107" color="#c8f8c8" label="107"/>
-            <paletteEntry value="108" color="#485848" label="108"/>
-            <paletteEntry value="109" color="#a8c8a8" label="109"/>
-            <paletteEntry value="110" color="#586858" label="110"/>
-            <paletteEntry value="111" color="#d8f8d8" label="111"/>
-            <paletteEntry value="112" color="#788978" label="112"/>
-            <paletteEntry value="113" color="#d8e8d8" label="113"/>
-            <paletteEntry value="114" color="#e8f8e8" label="114"/>
-            <paletteEntry value="115" color="#687867" label="115"/>
-            <paletteEntry value="116" color="#c8f8b8" label="116"/>
-            <paletteEntry value="117" color="#b8d8a8" label="117"/>
-            <paletteEntry value="118" color="#c8e8b8" label="118"/>
-            <paletteEntry value="119" color="#d8f8c8" label="119"/>
-            <paletteEntry value="120" color="#a2c988" label="120"/>
-            <paletteEntry value="121" color="#98a88c" label="121"/>
-            <paletteEntry value="122" color="#90ad78" label="122"/>
-            <paletteEntry value="123" color="#c8e8a8" label="123"/>
-            <paletteEntry value="124" color="#d8f8b8" label="124"/>
-            <paletteEntry value="125" color="#a8b898" label="125"/>
-            <paletteEntry value="126" color="#b8c8a8" label="126"/>
-            <paletteEntry value="127" color="#c8d8b8" label="127"/>
-            <paletteEntry value="128" color="#d8e8c8" label="128"/>
-            <paletteEntry value="129" color="#e8f8d8" label="129"/>
-            <paletteEntry value="130" color="#b4c898" label="130"/>
-            <paletteEntry value="131" color="#d8f8a4" label="131"/>
-            <paletteEntry value="132" color="#c8d8a8" label="132"/>
-            <paletteEntry value="133" color="#d8e8b8" label="133"/>
-            <paletteEntry value="134" color="#e8f8c8" label="134"/>
-            <paletteEntry value="135" color="#a8bb7a" label="135"/>
-            <paletteEntry value="136" color="#c4db88" label="136"/>
-            <paletteEntry value="137" color="#c7d998" label="137"/>
-            <paletteEntry value="138" color="#d8e8a8" label="138"/>
-            <paletteEntry value="139" color="#e8f8b8" label="139"/>
-            <paletteEntry value="140" color="#c1d974" label="140"/>
-            <paletteEntry value="141" color="#e8f8a8" label="141"/>
-            <paletteEntry value="142" color="#909288" label="142"/>
-            <paletteEntry value="143" color="#d8e990" label="143"/>
-            <paletteEntry value="144" color="#262814" label="144"/>
-            <paletteEntry value="145" color="#b6be68" label="145"/>
-            <paletteEntry value="146" color="#afb047" label="146"/>
-            <paletteEntry value="147" color="#e5e868" label="147"/>
-            <paletteEntry value="148" color="#cfd268" label="148"/>
-            <paletteEntry value="149" color="#d8da82" label="149"/>
-            <paletteEntry value="150" color="#f8f847" label="150"/>
-            <paletteEntry value="151" color="#f8f858" label="151"/>
-            <paletteEntry value="152" color="#e8e757" label="152"/>
-            <paletteEntry value="153" color="#d0d053" label="153"/>
-            <paletteEntry value="154" color="#f8f869" label="154"/>
-            <paletteEntry value="155" color="#f8f8a8" label="155"/>
-            <paletteEntry value="156" color="#c8c888" label="156"/>
-            <paletteEntry value="157" color="#d8d898" label="157"/>
-            <paletteEntry value="158" color="#e8e8a8" label="158"/>
-            <paletteEntry value="159" color="#585840" label="159"/>
-            <paletteEntry value="160" color="#f8f8b8" label="160"/>
-            <paletteEntry value="161" color="#b8b888" label="161"/>
-            <paletteEntry value="162" color="#c8c898" label="162"/>
-            <paletteEntry value="163" color="#d8d8a8" label="163"/>
-            <paletteEntry value="164" color="#e8e8b8" label="164"/>
-            <paletteEntry value="165" color="#f8f8c8" label="165"/>
-            <paletteEntry value="166" color="#a8a888" label="166"/>
-            <paletteEntry value="167" color="#b8b898" label="167"/>
-            <paletteEntry value="168" color="#c8c8a8" label="168"/>
-            <paletteEntry value="169" color="#d8d8b8" label="169"/>
-            <paletteEntry value="170" color="#e8e8c8" label="170"/>
-            <paletteEntry value="171" color="#f8f8d8" label="171"/>
-            <paletteEntry value="172" color="#48483f" label="172"/>
-            <paletteEntry value="173" color="#a8a898" label="173"/>
-            <paletteEntry value="174" color="#b8b8a8" label="174"/>
-            <paletteEntry value="175" color="#e8e8d8" label="175"/>
-            <paletteEntry value="176" color="#c8c8ba" label="176"/>
-            <paletteEntry value="177" color="#f8f8e8" label="177"/>
-            <paletteEntry value="178" color="#191808" label="178"/>
-            <paletteEntry value="179" color="#f0eb96" label="179"/>
-            <paletteEntry value="180" color="#7a7864" label="180"/>
-            <paletteEntry value="181" color="#968a47" label="181"/>
-            <paletteEntry value="182" color="#e8da88" label="182"/>
-            <paletteEntry value="183" color="#d8c888" label="183"/>
-            <paletteEntry value="184" color="#e8d898" label="184"/>
-            <paletteEntry value="185" color="#f8e8a8" label="185"/>
-            <paletteEntry value="186" color="#918b70" label="186"/>
-            <paletteEntry value="187" color="#c8a93f" label="187"/>
-            <paletteEntry value="188" color="#b7a978" label="188"/>
-            <paletteEntry value="189" color="#f8d979" label="189"/>
-            <paletteEntry value="190" color="#c8b888" label="190"/>
-            <paletteEntry value="191" color="#d8c898" label="191"/>
-            <paletteEntry value="192" color="#f8e8b8" label="192"/>
-            <paletteEntry value="193" color="#f6c957" label="193"/>
-            <paletteEntry value="194" color="#f3cc68" label="194"/>
-            <paletteEntry value="195" color="#716851" label="195"/>
-            <paletteEntry value="196" color="#3d3218" label="196"/>
-            <paletteEntry value="197" color="#c9a85b" label="197"/>
-            <paletteEntry value="198" color="#54472a" label="198"/>
-            <paletteEntry value="199" color="#8c7a53" label="199"/>
-            <paletteEntry value="200" color="#d8b368" label="200"/>
-            <paletteEntry value="201" color="#e8c887" label="201"/>
-            <paletteEntry value="202" color="#f8d898" label="202"/>
-            <paletteEntry value="203" color="#b8a888" label="203"/>
-            <paletteEntry value="204" color="#c8b898" label="204"/>
-            <paletteEntry value="205" color="#d8c8a8" label="205"/>
-            <paletteEntry value="206" color="#e8d8b8" label="206"/>
-            <paletteEntry value="207" color="#f8e8c8" label="207"/>
-            <paletteEntry value="208" color="#ecb858" label="208"/>
-            <paletteEntry value="209" color="#b29153" label="209"/>
-            <paletteEntry value="210" color="#ac9772" label="210"/>
-            <paletteEntry value="211" color="#daa042" label="211"/>
-            <paletteEntry value="212" color="#b88838" label="212"/>
-            <paletteEntry value="213" color="#e8aa48" label="213"/>
-            <paletteEntry value="214" color="#e8b868" label="214"/>
-            <paletteEntry value="215" color="#f8c878" label="215"/>
-            <paletteEntry value="216" color="#6f5b3b" label="216"/>
-            <paletteEntry value="217" color="#f6d8a8" label="217"/>
-            <paletteEntry value="218" color="#a47838" label="218"/>
-            <paletteEntry value="219" color="#8c6830" label="219"/>
-            <paletteEntry value="220" color="#d8b888" label="220"/>
-            <paletteEntry value="221" color="#e8c898" label="221"/>
-            <paletteEntry value="222" color="#c88a36" label="222"/>
-            <paletteEntry value="223" color="#c89857" label="223"/>
-            <paletteEntry value="224" color="#e8b87a" label="224"/>
-            <paletteEntry value="225" color="#f8b868" label="225"/>
-            <paletteEntry value="226" color="#443829" label="226"/>
-            <paletteEntry value="227" color="#f8c488" label="227"/>
-            <paletteEntry value="228" color="#c8a887" label="228"/>
-            <paletteEntry value="229" color="#d8b898" label="229"/>
-            <paletteEntry value="230" color="#b8a898" label="230"/>
-            <paletteEntry value="231" color="#d8c8b8" label="231"/>
-            <paletteEntry value="232" color="#f8e8d8" label="232"/>
-            <paletteEntry value="233" color="#f8c699" label="233"/>
+            <paletteEntry value="40" color="#581652" label="40"/>
+            <paletteEntry value="41" color="#e9d8e8" label="41"/>
+            <paletteEntry value="42" color="#180818" label="42"/>
+            <paletteEntry value="43" color="#584858" label="43"/>
+            <paletteEntry value="44" color="#c8b5c8" label="44"/>
+            <paletteEntry value="45" color="#f8e8f8" label="45"/>
+            <paletteEntry value="46" color="#79787c" label="46"/>
+            <paletteEntry value="47" color="#2a2563" label="47"/>
+            <paletteEntry value="48" color="#080818" label="48"/>
+            <paletteEntry value="49" color="#48485a" label="49"/>
+            <paletteEntry value="50" color="#e8e8f8" label="50"/>
+            <paletteEntry value="51" color="#282829" label="51"/>
+            <paletteEntry value="52" color="#d5d5d8" label="52"/>
+            <paletteEntry value="53" color="#b8b8b9" label="53"/>
+            <paletteEntry value="54" color="#3d3e6e" label="54"/>
+            <paletteEntry value="55" color="#080c57" label="55"/>
+            <paletteEntry value="56" color="#67687b" label="56"/>
+            <paletteEntry value="57" color="#575868" label="57"/>
+            <paletteEntry value="58" color="#08166c" label="58"/>
+            <paletteEntry value="59" color="#a0a4b9" label="59"/>
+            <paletteEntry value="60" color="#929398" label="60"/>
+            <paletteEntry value="61" color="#0837ad" label="61"/>
+            <paletteEntry value="62" color="#323846" label="62"/>
+            <paletteEntry value="63" color="#083289" label="63"/>
+            <paletteEntry value="64" color="#082f75" label="64"/>
+            <paletteEntry value="65" color="#0854af" label="65"/>
+            <paletteEntry value="66" color="#081729" label="66"/>
+            <paletteEntry value="67" color="#0c2d52" label="67"/>
+            <paletteEntry value="68" color="#106dca" label="68"/>
+            <paletteEntry value="69" color="#0c4887" label="69"/>
+            <paletteEntry value="70" color="#2a598a" label="70"/>
+            <paletteEntry value="71" color="#d8e8f8" label="71"/>
+            <paletteEntry value="72" color="#1f4c75" label="72"/>
+            <paletteEntry value="73" color="#3b6891" label="73"/>
+            <paletteEntry value="74" color="#c0d8ee" label="74"/>
+            <paletteEntry value="75" color="#1668ad" label="75"/>
+            <paletteEntry value="76" color="#437cac" label="76"/>
+            <paletteEntry value="77" color="#7e97ac" label="77"/>
+            <paletteEntry value="78" color="#17588b" label="78"/>
+            <paletteEntry value="79" color="#296da3" label="79"/>
+            <paletteEntry value="80" color="#618fb1" label="80"/>
+            <paletteEntry value="81" color="#8fb2cd" label="81"/>
+            <paletteEntry value="82" color="#aac6dc" label="82"/>
+            <paletteEntry value="83" color="#75a5c6" label="83"/>
+            <paletteEntry value="84" color="#738999" label="84"/>
+            <paletteEntry value="85" color="#517c96" label="85"/>
+            <paletteEntry value="86" color="#c8e8f8" label="86"/>
+            <paletteEntry value="87" color="#d8e4e8" label="87"/>
+            <paletteEntry value="88" color="#556a6f" label="88"/>
+            <paletteEntry value="89" color="#667b80" label="89"/>
+            <paletteEntry value="90" color="#a2b8b9" label="90"/>
+            <paletteEntry value="91" color="#081818" label="91"/>
+            <paletteEntry value="92" color="#c8f8f8" label="92"/>
+            <paletteEntry value="93" color="#475858" label="93"/>
+            <paletteEntry value="94" color="#8ea8a8" label="94"/>
+            <paletteEntry value="95" color="#c8e8e8" label="95"/>
+            <paletteEntry value="96" color="#d8f8f8" label="96"/>
+            <paletteEntry value="97" color="#e8f8f8" label="97"/>
+            <paletteEntry value="98" color="#b7d9d8" label="98"/>
+            <paletteEntry value="99" color="#c6f8e8" label="99"/>
+            <paletteEntry value="100" color="#a6d9c4" label="100"/>
+            <paletteEntry value="101" color="#a8c8b9" label="101"/>
+            <paletteEntry value="102" color="#384840" label="102"/>
+            <paletteEntry value="103" color="#d8f8e8" label="103"/>
+            <paletteEntry value="104" color="#c6f8d8" label="104"/>
+            <paletteEntry value="105" color="#a4b8a8" label="105"/>
+            <paletteEntry value="106" color="#b8c8bb" label="106"/>
+            <paletteEntry value="107" color="#b8d8b9" label="107"/>
+            <paletteEntry value="108" color="#c7e8c8" label="108"/>
+            <paletteEntry value="109" color="#081808" label="109"/>
+            <paletteEntry value="110" color="#b8e8b8" label="110"/>
+            <paletteEntry value="111" color="#c8f8c8" label="111"/>
+            <paletteEntry value="112" color="#485848" label="112"/>
+            <paletteEntry value="113" color="#a8c8a8" label="113"/>
+            <paletteEntry value="114" color="#586858" label="114"/>
+            <paletteEntry value="115" color="#d8f8d8" label="115"/>
+            <paletteEntry value="116" color="#788978" label="116"/>
+            <paletteEntry value="117" color="#d8e8d8" label="117"/>
+            <paletteEntry value="118" color="#e8f8e8" label="118"/>
+            <paletteEntry value="119" color="#a7d8a6" label="119"/>
+            <paletteEntry value="120" color="#687867" label="120"/>
+            <paletteEntry value="121" color="#c8f8b8" label="121"/>
+            <paletteEntry value="122" color="#b8d8a8" label="122"/>
+            <paletteEntry value="123" color="#c8e8b8" label="123"/>
+            <paletteEntry value="124" color="#d8f8c8" label="124"/>
+            <paletteEntry value="125" color="#a2c987" label="125"/>
+            <paletteEntry value="126" color="#98a88c" label="126"/>
+            <paletteEntry value="127" color="#8fad78" label="127"/>
+            <paletteEntry value="128" color="#c8e8a8" label="128"/>
+            <paletteEntry value="129" color="#d8f8b8" label="129"/>
+            <paletteEntry value="130" color="#a8b898" label="130"/>
+            <paletteEntry value="131" color="#b8c8a8" label="131"/>
+            <paletteEntry value="132" color="#c8d8b8" label="132"/>
+            <paletteEntry value="133" color="#d8e8c8" label="133"/>
+            <paletteEntry value="134" color="#e8f8d8" label="134"/>
+            <paletteEntry value="135" color="#b5c898" label="135"/>
+            <paletteEntry value="136" color="#d8f8a4" label="136"/>
+            <paletteEntry value="137" color="#c8d8a8" label="137"/>
+            <paletteEntry value="138" color="#d8e8b8" label="138"/>
+            <paletteEntry value="139" color="#e8f8c8" label="139"/>
+            <paletteEntry value="140" color="#a7bd71" label="140"/>
+            <paletteEntry value="141" color="#c7d998" label="141"/>
+            <paletteEntry value="142" color="#d8e8a8" label="142"/>
+            <paletteEntry value="143" color="#e8f8b8" label="143"/>
+            <paletteEntry value="144" color="#c3d97b" label="144"/>
+            <paletteEntry value="145" color="#d7e98f" label="145"/>
+            <paletteEntry value="146" color="#e8f8a8" label="146"/>
+            <paletteEntry value="147" color="#909288" label="147"/>
+            <paletteEntry value="148" color="#c8d868" label="148"/>
+            <paletteEntry value="149" color="#262814" label="149"/>
+            <paletteEntry value="150" color="#bec268" label="150"/>
+            <paletteEntry value="151" color="#afb047" label="151"/>
+            <paletteEntry value="152" color="#dfe166" label="152"/>
+            <paletteEntry value="153" color="#d8da82" label="153"/>
+            <paletteEntry value="154" color="#f8f857" label="154"/>
+            <paletteEntry value="155" color="#e8e757" label="155"/>
+            <paletteEntry value="156" color="#cac94f" label="156"/>
+            <paletteEntry value="157" color="#f8f869" label="157"/>
+            <paletteEntry value="158" color="#f8f8a8" label="158"/>
+            <paletteEntry value="159" color="#c8c888" label="159"/>
+            <paletteEntry value="160" color="#d8d898" label="160"/>
+            <paletteEntry value="161" color="#e8e8a8" label="161"/>
+            <paletteEntry value="162" color="#585840" label="162"/>
+            <paletteEntry value="163" color="#f8f8b8" label="163"/>
+            <paletteEntry value="164" color="#b8b888" label="164"/>
+            <paletteEntry value="165" color="#c8c898" label="165"/>
+            <paletteEntry value="166" color="#d8d8a8" label="166"/>
+            <paletteEntry value="167" color="#e8e8b8" label="167"/>
+            <paletteEntry value="168" color="#f8f8c8" label="168"/>
+            <paletteEntry value="169" color="#a8a888" label="169"/>
+            <paletteEntry value="170" color="#b8b898" label="170"/>
+            <paletteEntry value="171" color="#c8c8a8" label="171"/>
+            <paletteEntry value="172" color="#d8d8b8" label="172"/>
+            <paletteEntry value="173" color="#e8e8c8" label="173"/>
+            <paletteEntry value="174" color="#f8f8d8" label="174"/>
+            <paletteEntry value="175" color="#48483f" label="175"/>
+            <paletteEntry value="176" color="#a8a898" label="176"/>
+            <paletteEntry value="177" color="#b8b8a8" label="177"/>
+            <paletteEntry value="178" color="#e8e8d8" label="178"/>
+            <paletteEntry value="179" color="#c8c8ba" label="179"/>
+            <paletteEntry value="180" color="#f8f8e8" label="180"/>
+            <paletteEntry value="181" color="#191808" label="181"/>
+            <paletteEntry value="182" color="#f0eb96" label="182"/>
+            <paletteEntry value="183" color="#e8de83" label="183"/>
+            <paletteEntry value="184" color="#7a7864" label="184"/>
+            <paletteEntry value="185" color="#968a47" label="185"/>
+            <paletteEntry value="186" color="#d8c888" label="186"/>
+            <paletteEntry value="187" color="#e8d898" label="187"/>
+            <paletteEntry value="188" color="#f8e8a8" label="188"/>
+            <paletteEntry value="189" color="#918b70" label="189"/>
+            <paletteEntry value="190" color="#b7a978" label="190"/>
+            <paletteEntry value="191" color="#f8d979" label="191"/>
+            <paletteEntry value="192" color="#c8b888" label="192"/>
+            <paletteEntry value="193" color="#d8c898" label="193"/>
+            <paletteEntry value="194" color="#f8e8b8" label="194"/>
+            <paletteEntry value="195" color="#f8cd67" label="195"/>
+            <paletteEntry value="196" color="#716851" label="196"/>
+            <paletteEntry value="197" color="#3d3218" label="197"/>
+            <paletteEntry value="198" color="#c9a85b" label="198"/>
+            <paletteEntry value="199" color="#54472a" label="199"/>
+            <paletteEntry value="200" color="#8c7a53" label="200"/>
+            <paletteEntry value="201" color="#d4a343" label="201"/>
+            <paletteEntry value="202" color="#d8b368" label="202"/>
+            <paletteEntry value="203" color="#e8c888" label="203"/>
+            <paletteEntry value="204" color="#f8d898" label="204"/>
+            <paletteEntry value="205" color="#b8a888" label="205"/>
+            <paletteEntry value="206" color="#c8b898" label="206"/>
+            <paletteEntry value="207" color="#d8c8a8" label="207"/>
+            <paletteEntry value="208" color="#e8d8b8" label="208"/>
+            <paletteEntry value="209" color="#f8e8c8" label="209"/>
+            <paletteEntry value="210" color="#ecb858" label="210"/>
+            <paletteEntry value="211" color="#b29153" label="211"/>
+            <paletteEntry value="212" color="#e8c178" label="212"/>
+            <paletteEntry value="213" color="#ac9772" label="213"/>
+            <paletteEntry value="214" color="#b88838" label="214"/>
+            <paletteEntry value="215" color="#e8b868" label="215"/>
+            <paletteEntry value="216" color="#f8c879" label="216"/>
+            <paletteEntry value="217" color="#6f5b3b" label="217"/>
+            <paletteEntry value="218" color="#f6d8a8" label="218"/>
+            <paletteEntry value="219" color="#a47838" label="219"/>
+            <paletteEntry value="220" color="#8c6830" label="220"/>
+            <paletteEntry value="221" color="#d8b888" label="221"/>
+            <paletteEntry value="222" color="#e8c898" label="222"/>
+            <paletteEntry value="223" color="#e9a23e" label="223"/>
+            <paletteEntry value="224" color="#c88a36" label="224"/>
+            <paletteEntry value="225" color="#c89857" label="225"/>
+            <paletteEntry value="226" color="#41382d" label="226"/>
+            <paletteEntry value="227" color="#c8a887" label="227"/>
+            <paletteEntry value="228" color="#d8b898" label="228"/>
+            <paletteEntry value="229" color="#b8a898" label="229"/>
+            <paletteEntry value="230" color="#d8c8b8" label="230"/>
+            <paletteEntry value="231" color="#f8e8d8" label="231"/>
+            <paletteEntry value="232" color="#f8c69a" label="232"/>
+            <paletteEntry value="233" color="#f8b887" label="233"/>
             <paletteEntry value="234" color="#c9b6a8" label="234"/>
-            <paletteEntry value="235" color="#ead7ca" label="235"/>
-            <paletteEntry value="236" color="#d8a788" label="236"/>
+            <paletteEntry value="235" color="#d8a888" label="235"/>
+            <paletteEntry value="236" color="#ead7ca" label="236"/>
             <paletteEntry value="237" color="#e8b899" label="237"/>
             <paletteEntry value="238" color="#ca8e6e" label="238"/>
             <paletteEntry value="239" color="#c8a898" label="239"/>
-            <paletteEntry value="240" color="#eaa58b" label="240"/>
-            <paletteEntry value="241" color="#d8a8a1" label="241"/>
-            <paletteEntry value="242" color="#ae938f" label="242"/>
-            <paletteEntry value="243" color="#b77c75" label="243"/>
-            <paletteEntry value="244" color="#c8938c" label="244"/>
-            <paletteEntry value="245" color="#190808" label="245"/>
-            <paletteEntry value="246" color="#b8a8a8" label="246"/>
-            <paletteEntry value="247" color="#f8e8e8" label="247"/>
-            <paletteEntry value="248" color="#f8f8f8" label="248"/>
-            <paletteEntry value="249" color="#e8e8e8" label="249"/>
-            <paletteEntry value="250" color="#b8b8b8" label="250"/>
+            <paletteEntry value="240" color="#e9a38b" label="240"/>
+            <paletteEntry value="241" color="#d8978a" label="241"/>
+            <paletteEntry value="242" color="#d8a8a1" label="242"/>
+            <paletteEntry value="243" color="#ae938f" label="243"/>
+            <paletteEntry value="244" color="#b87c75" label="244"/>
+            <paletteEntry value="245" color="#c8938c" label="245"/>
+            <paletteEntry value="246" color="#180808" label="246"/>
+            <paletteEntry value="247" color="#b8a8a8" label="247"/>
+            <paletteEntry value="248" color="#f8e8e8" label="248"/>
+            <paletteEntry value="249" color="#f8f8f8" label="249"/>
+            <paletteEntry value="250" color="#e8e8e8" label="250"/>
             <paletteEntry value="251" color="#a8a8a8" label="251"/>
             <paletteEntry value="252" color="#686868" label="252"/>
             <paletteEntry value="253" color="#585858" label="253"/>
@@ -53597,7 +53769,7 @@ AND
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+06" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+06" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>mefObstacles20141222134843555</id>
       <datasource>file:./data/mefObstacles.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes</datasource>
       <title></title>
@@ -53677,13 +53849,13 @@ AND
         <property key="labeling/blendMode" value="0"/>
         <property key="labeling/bufferBlendMode" value="0"/>
         <property key="labeling/bufferColorA" value="255"/>
-        <property key="labeling/bufferColorB" value="120"/>
-        <property key="labeling/bufferColorG" value="255"/>
-        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferColorB" value="110"/>
+        <property key="labeling/bufferColorG" value="59"/>
+        <property key="labeling/bufferColorR" value="8"/>
         <property key="labeling/bufferDraw" value="true"/>
         <property key="labeling/bufferJoinStyle" value="64"/>
         <property key="labeling/bufferNoFill" value="false"/>
-        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSize" value="1.3"/>
         <property key="labeling/bufferSizeInMapUnits" value="false"/>
         <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
         <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
@@ -53696,8 +53868,10 @@ AND
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/drawLabels" value="true"/>
         <property key="labeling/enabled" value="true"/>
         <property key="labeling/fieldName" value="mefheight"/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontBold" value="true"/>
         <property key="labeling/fontCapitals" value="0"/>
         <property key="labeling/fontFamily" value="Ubuntu"/>
@@ -53706,7 +53880,7 @@ AND
         <property key="labeling/fontLimitPixelSize" value="false"/>
         <property key="labeling/fontMaxPixelSize" value="10000"/>
         <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="11"/>
+        <property key="labeling/fontSize" value="13"/>
         <property key="labeling/fontSizeInMapUnits" value="false"/>
         <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
         <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
@@ -53731,6 +53905,8 @@ AND
         <property key="labeling/multilineHeight" value="1"/>
         <property key="labeling/namedStyle" value="Medium"/>
         <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
         <property key="labeling/placement" value="0"/>
         <property key="labeling/placementFlags" value="0"/>
@@ -53804,14 +53980,16 @@ AND
         <property key="labeling/shapeTransparency" value="0"/>
         <property key="labeling/shapeType" value="0"/>
         <property key="labeling/textColorA" value="255"/>
-        <property key="labeling/textColorB" value="0"/>
-        <property key="labeling/textColorG" value="0"/>
-        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textColorB" value="255"/>
+        <property key="labeling/textColorG" value="255"/>
+        <property key="labeling/textColorR" value="255"/>
         <property key="labeling/textTransp" value="0"/>
         <property key="labeling/upsidedownLabels" value="0"/>
         <property key="labeling/wrapChar" value=""/>
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
@@ -53838,6 +54016,13 @@ AND
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+06" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="1" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+          <fontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
       <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
@@ -53868,7 +54053,7 @@ AND
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+06" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+06" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>mefTerrain20141222134900603</id>
       <datasource>file:./data/mefTerrain.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes</datasource>
       <title></title>
@@ -53948,13 +54133,13 @@ AND
         <property key="labeling/blendMode" value="0"/>
         <property key="labeling/bufferBlendMode" value="0"/>
         <property key="labeling/bufferColorA" value="255"/>
-        <property key="labeling/bufferColorB" value="120"/>
-        <property key="labeling/bufferColorG" value="255"/>
-        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferColorB" value="110"/>
+        <property key="labeling/bufferColorG" value="59"/>
+        <property key="labeling/bufferColorR" value="8"/>
         <property key="labeling/bufferDraw" value="true"/>
         <property key="labeling/bufferJoinStyle" value="64"/>
         <property key="labeling/bufferNoFill" value="false"/>
-        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSize" value="1.3"/>
         <property key="labeling/bufferSizeInMapUnits" value="false"/>
         <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
         <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
@@ -53962,13 +54147,15 @@ AND
         <property key="labeling/centroidInside" value="false"/>
         <property key="labeling/centroidWhole" value="false"/>
         <property key="labeling/decimals" value="3"/>
-        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/displayAll" value="true"/>
         <property key="labeling/dist" value="0"/>
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/drawLabels" value="true"/>
         <property key="labeling/enabled" value="true"/>
         <property key="labeling/fieldName" value="mefheight"/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontBold" value="true"/>
         <property key="labeling/fontCapitals" value="0"/>
         <property key="labeling/fontFamily" value="Ubuntu"/>
@@ -53977,7 +54164,7 @@ AND
         <property key="labeling/fontLimitPixelSize" value="false"/>
         <property key="labeling/fontMaxPixelSize" value="10000"/>
         <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="11"/>
+        <property key="labeling/fontSize" value="13"/>
         <property key="labeling/fontSizeInMapUnits" value="false"/>
         <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
         <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
@@ -54002,13 +54189,15 @@ AND
         <property key="labeling/multilineHeight" value="1"/>
         <property key="labeling/namedStyle" value="Medium"/>
         <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
         <property key="labeling/placement" value="0"/>
         <property key="labeling/placementFlags" value="0"/>
         <property key="labeling/plussign" value="false"/>
         <property key="labeling/preserveRotation" value="true"/>
         <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="5"/>
+        <property key="labeling/priority" value="6"/>
         <property key="labeling/quadOffset" value="4"/>
         <property key="labeling/repeatDistance" value="0"/>
         <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
@@ -54075,14 +54264,16 @@ AND
         <property key="labeling/shapeTransparency" value="0"/>
         <property key="labeling/shapeType" value="0"/>
         <property key="labeling/textColorA" value="255"/>
-        <property key="labeling/textColorB" value="0"/>
-        <property key="labeling/textColorG" value="0"/>
-        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textColorB" value="255"/>
+        <property key="labeling/textColorG" value="255"/>
+        <property key="labeling/textColorR" value="255"/>
         <property key="labeling/textTransp" value="0"/>
         <property key="labeling/upsidedownLabels" value="0"/>
         <property key="labeling/wrapChar" value=""/>
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
@@ -54109,6 +54300,13 @@ AND
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+06" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="1" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+          <fontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
       <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
@@ -56229,7 +56427,7 @@ AND
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+06" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>mora20140725140447821</id>
       <datasource>file:./data/mora.csv?type=csv&amp;xField=currentLongitudeDecimal&amp;yField=currentLatitudeDecimal&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes</datasource>
       <title></title>
@@ -56322,8 +56520,10 @@ AND
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/drawLabels" value="true"/>
         <property key="labeling/enabled" value="true"/>
         <property key="labeling/fieldName" value="mora"/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontBold" value="true"/>
         <property key="labeling/fontCapitals" value="4"/>
         <property key="labeling/fontFamily" value="Droid Sans"/>
@@ -56357,6 +56557,8 @@ AND
         <property key="labeling/multilineHeight" value="1"/>
         <property key="labeling/namedStyle" value="Bold"/>
         <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
         <property key="labeling/placement" value="0"/>
         <property key="labeling/placementFlags" value="0"/>
@@ -56438,6 +56640,8 @@ AND
         <property key="labeling/wrapChar" value=""/>
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
@@ -56464,6 +56668,13 @@ AND
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+          <fontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
       <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
@@ -56484,439 +56695,6 @@ AND
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mora">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="500001" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>mtr20150331204944020</id>
-      <datasource>./data/shapes/Military Training Routes/mtr.shp</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>mtr</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <provider encoding="System">ogr</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="_id">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="master_rec">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="bearing_of">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="distance_o">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ident_of_r">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="latitude">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="latitude_l">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="longitude">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="longitude_">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="record_sor">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="record_typ">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="route_iden">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="route_poin">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="route_type">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="segment_de">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="segment__1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <renderer-v2 attr="route_type" forceraster="0" symbollevels="0" type="categorizedSymbol">
-        <categories>
-          <category render="true" symbol="0" value="IR" label="IR"/>
-          <category render="true" symbol="1" value="VR" label="VR"/>
-          <category render="false" symbol="2" value="" label=""/>
-        </categories>
-        <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="255,255,255,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="700"/>
-              <prop k="line_width_unit" v="MapUnit"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MapUnit"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="201,162,116,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="500"/>
-              <prop k="line_width_unit" v="MapUnit"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MapUnit"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="1">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="255,255,255,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="700"/>
-              <prop k="line_width_unit" v="MapUnit"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MapUnit"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="184,184,185,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="500"/>
-              <prop k="line_width_unit" v="MapUnit"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MapUnit"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="2">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="217,180,86,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-        </symbols>
-        <source-symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="137,26,26,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-        </source-symbol>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
-      </renderer-v2>
-      <labeling type="simple"/>
-      <customproperties>
-        <property key="labeling" value="pal"/>
-        <property key="labeling/addDirectionSymbol" value="false"/>
-        <property key="labeling/angleOffset" value="0"/>
-        <property key="labeling/blendMode" value="0"/>
-        <property key="labeling/bufferBlendMode" value="0"/>
-        <property key="labeling/bufferColorA" value="255"/>
-        <property key="labeling/bufferColorB" value="255"/>
-        <property key="labeling/bufferColorG" value="255"/>
-        <property key="labeling/bufferColorR" value="255"/>
-        <property key="labeling/bufferDraw" value="true"/>
-        <property key="labeling/bufferJoinStyle" value="64"/>
-        <property key="labeling/bufferNoFill" value="false"/>
-        <property key="labeling/bufferSize" value="1"/>
-        <property key="labeling/bufferSizeInMapUnits" value="false"/>
-        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
-        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
-        <property key="labeling/bufferTransp" value="0"/>
-        <property key="labeling/centroidInside" value="false"/>
-        <property key="labeling/centroidWhole" value="false"/>
-        <property key="labeling/decimals" value="3"/>
-        <property key="labeling/displayAll" value="true"/>
-        <property key="labeling/dist" value="0"/>
-        <property key="labeling/distInMapUnits" value="false"/>
-        <property key="labeling/distMapUnitMaxScale" value="0"/>
-        <property key="labeling/distMapUnitMinScale" value="0"/>
-        <property key="labeling/enabled" value="true"/>
-        <property key="labeling/fieldName" value=" &quot;route_type&quot;  ||   &quot;route_iden&quot; "/>
-        <property key="labeling/fontBold" value="false"/>
-        <property key="labeling/fontCapitals" value="0"/>
-        <property key="labeling/fontFamily" value="Sans Serif"/>
-        <property key="labeling/fontItalic" value="false"/>
-        <property key="labeling/fontLetterSpacing" value="0"/>
-        <property key="labeling/fontLimitPixelSize" value="false"/>
-        <property key="labeling/fontMaxPixelSize" value="10000"/>
-        <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="9"/>
-        <property key="labeling/fontSizeInMapUnits" value="false"/>
-        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
-        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
-        <property key="labeling/fontStrikeout" value="false"/>
-        <property key="labeling/fontUnderline" value="false"/>
-        <property key="labeling/fontWeight" value="50"/>
-        <property key="labeling/fontWordSpacing" value="0"/>
-        <property key="labeling/formatNumbers" value="false"/>
-        <property key="labeling/isExpression" value="true"/>
-        <property key="labeling/labelOffsetInMapUnits" value="true"/>
-        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
-        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
-        <property key="labeling/labelPerPart" value="true"/>
-        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-        <property key="labeling/limitNumLabels" value="false"/>
-        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
-        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
-        <property key="labeling/maxNumLabels" value="2000"/>
-        <property key="labeling/mergeLines" value="true"/>
-        <property key="labeling/minFeatureSize" value="0"/>
-        <property key="labeling/multilineAlign" value="0"/>
-        <property key="labeling/multilineHeight" value="1"/>
-        <property key="labeling/namedStyle" value="Normal"/>
-        <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/placeDirectionSymbol" value="0"/>
-        <property key="labeling/placement" value="2"/>
-        <property key="labeling/placementFlags" value="9"/>
-        <property key="labeling/plussign" value="false"/>
-        <property key="labeling/preserveRotation" value="true"/>
-        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="5"/>
-        <property key="labeling/quadOffset" value="4"/>
-        <property key="labeling/repeatDistance" value="0"/>
-        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
-        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
-        <property key="labeling/repeatDistanceUnit" value="1"/>
-        <property key="labeling/reverseDirectionSymbol" value="false"/>
-        <property key="labeling/rightDirectionSymbol" value=">"/>
-        <property key="labeling/scaleMax" value="500001"/>
-        <property key="labeling/scaleMin" value="1"/>
-        <property key="labeling/scaleVisibility" value="true"/>
-        <property key="labeling/shadowBlendMode" value="6"/>
-        <property key="labeling/shadowColorB" value="0"/>
-        <property key="labeling/shadowColorG" value="0"/>
-        <property key="labeling/shadowColorR" value="0"/>
-        <property key="labeling/shadowDraw" value="false"/>
-        <property key="labeling/shadowOffsetAngle" value="135"/>
-        <property key="labeling/shadowOffsetDist" value="1"/>
-        <property key="labeling/shadowOffsetGlobal" value="true"/>
-        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
-        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
-        <property key="labeling/shadowOffsetUnits" value="1"/>
-        <property key="labeling/shadowRadius" value="1.5"/>
-        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
-        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
-        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
-        <property key="labeling/shadowRadiusUnits" value="1"/>
-        <property key="labeling/shadowScale" value="100"/>
-        <property key="labeling/shadowTransparency" value="30"/>
-        <property key="labeling/shadowUnder" value="0"/>
-        <property key="labeling/shapeBlendMode" value="0"/>
-        <property key="labeling/shapeBorderColorA" value="255"/>
-        <property key="labeling/shapeBorderColorB" value="128"/>
-        <property key="labeling/shapeBorderColorG" value="128"/>
-        <property key="labeling/shapeBorderColorR" value="128"/>
-        <property key="labeling/shapeBorderWidth" value="0"/>
-        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeBorderWidthUnits" value="1"/>
-        <property key="labeling/shapeDraw" value="false"/>
-        <property key="labeling/shapeFillColorA" value="255"/>
-        <property key="labeling/shapeFillColorB" value="255"/>
-        <property key="labeling/shapeFillColorG" value="255"/>
-        <property key="labeling/shapeFillColorR" value="255"/>
-        <property key="labeling/shapeJoinStyle" value="64"/>
-        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeOffsetUnits" value="1"/>
-        <property key="labeling/shapeOffsetX" value="0"/>
-        <property key="labeling/shapeOffsetY" value="0"/>
-        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeRadiiUnits" value="1"/>
-        <property key="labeling/shapeRadiiX" value="0"/>
-        <property key="labeling/shapeRadiiY" value="0"/>
-        <property key="labeling/shapeRotation" value="0"/>
-        <property key="labeling/shapeRotationType" value="0"/>
-        <property key="labeling/shapeSVGFile" value=""/>
-        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeSizeType" value="0"/>
-        <property key="labeling/shapeSizeUnits" value="1"/>
-        <property key="labeling/shapeSizeX" value="0"/>
-        <property key="labeling/shapeSizeY" value="0"/>
-        <property key="labeling/shapeTransparency" value="0"/>
-        <property key="labeling/shapeType" value="0"/>
-        <property key="labeling/textColorA" value="255"/>
-        <property key="labeling/textColorB" value="0"/>
-        <property key="labeling/textColorG" value="0"/>
-        <property key="labeling/textColorR" value="0"/>
-        <property key="labeling/textTransp" value="0"/>
-        <property key="labeling/upsidedownLabels" value="0"/>
-        <property key="labeling/wrapChar" value=""/>
-        <property key="labeling/xOffset" value="0"/>
-        <property key="labeling/yOffset" value="0"/>
-      </customproperties>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <displayfield>route_iden</displayfield>
-      <label>0</label>
-      <labelattributes>
-        <label fieldname="" text="Label"/>
-        <family fieldname="" name="Sans Serif"/>
-        <size fieldname="" units="pt" value="12"/>
-        <bold fieldname="" on="0"/>
-        <italic fieldname="" on="0"/>
-        <underline fieldname="" on="0"/>
-        <strikeout fieldname="" on="0"/>
-        <color fieldname="" red="0" blue="0" green="0"/>
-        <x fieldname=""/>
-        <y fieldname=""/>
-        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-        <angle fieldname="" value="0" auto="0"/>
-        <alignment fieldname="" value="center"/>
-        <buffercolor fieldname="" red="255" blue="255" green="255"/>
-        <buffersize fieldname="" units="pt" value="1"/>
-        <bufferenabled fieldname="" on=""/>
-        <multilineenabled fieldname="" on=""/>
-        <selectedonly on=""/>
-      </labelattributes>
-      <editform>.</editform>
-      <editforminit/>
-      <featformsuppress>0</featformsuppress>
-      <annotationform>.</annotationform>
-      <editorlayout>generatedlayout</editorlayout>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="_id">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="master_rec">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="bearing_of">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="distance_o">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ident_of_r">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="latitude">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="latitude_l">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="longitude">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="longitude_">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="record_sor">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="record_typ">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="route_iden">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="route_poin">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="route_type">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="segment_de">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="segment__1">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -57112,6 +56890,345 @@ AND
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="segment_description_text_leaving_the_point_maximum_of_4_occuren">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="500001" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>mtr_mtrlines20160114101506745</id>
+      <datasource>dbname='./data/databases/spatial56day.db' table="mtr_mtrlines" (airwaygeom) sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>mtr_mtrlines</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="unique_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="route_identifier">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="route_type">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="geometry">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 attr="route_type" forceraster="0" symbollevels="0" type="categorizedSymbol">
+        <categories>
+          <category render="true" symbol="0" value="IR" label="IR"/>
+          <category render="true" symbol="1" value="VR" label="VR"/>
+          <category render="true" symbol="2" value="" label=""/>
+        </categories>
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="20,91,204,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="1">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="215,78,131,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="2">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="103,201,42,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="112,150,114,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="true"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitMaxScale" value="0"/>
+        <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/drawLabels" value="true"/>
+        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/fieldName" value="unique_id"/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="Ubuntu"/>
+        <property key="labeling/fontItalic" value="true"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="9"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="63"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="false"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Medium Italic"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="2"/>
+        <property key="labeling/placementFlags" value="9"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>unique_id</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="Ubuntu"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+          <fontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
+      <editform>.</editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform>.</annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="unique_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="route_identifier">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="route_type">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="geometry">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -69265,7 +69382,6 @@ AND
         <value>metars_cache20150211205853387</value>
         <value>metars_cache20150602102359528</value>
         <value>mora20140725140447821</value>
-        <value>mtr20150331204944020</value>
         <value>mtr_mtr520150401101737005</value>
         <value>nav_nav120140806223035684</value>
         <value>navaids20150401122020079</value>
@@ -69328,6 +69444,7 @@ AND
         <value>twr_twr120140817234608457</value>
         <value>twr_twr720140817234616757</value>
         <value>wxl_wxl20140818161639733</value>
+        <value>mtr_mtrlines20160114101506745</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>enabled</value>
@@ -69544,7 +69661,6 @@ AND
         <value>2</value>
         <value>0</value>
         <value>2</value>
-        <value>2</value>
         <value>0</value>
         <value>2</value>
         <value>2</value>
@@ -69606,6 +69722,7 @@ AND
         <value>0</value>
         <value>0</value>
         <value>0</value>
+        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
         <value>to_vertex</value>
