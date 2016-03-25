@@ -43,7 +43,7 @@ The databases were created from the FAA 56-day data <br>
     (https://nfdc.faa.gov/xwiki/bin/view/NFDC/56+Day+NASR+Subscription)
 
 and this program<br>
-    (https://github.com/jlmcgraw/aviationMapProcessFaaData)
+    (https://github.com/jlmcgraw/processFaaData)
 
 Geo-referenced instrument plates were created with<br>
     https://github.com/jlmcgraw/GeoReferencePlates
