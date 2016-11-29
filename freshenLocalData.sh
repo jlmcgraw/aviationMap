@@ -18,3 +18,5 @@ set +e
 tar --extract --verbose --keep-newer-files --file $dataFile
 #Restore quit on error
 set -e
+
+./freshen_eadi_zip_data.sh
