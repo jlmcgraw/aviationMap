@@ -6,7 +6,7 @@ set -o nounset
 IFS=$(printf '\n\t')   # IFS is newline or tab
 
 # Link to the data archive on dropbox
-dataUrl="https://www.dropbox.com/s/fk1uup3zx7sb8r0/data.tar.xz?dl=0"
+dataUrl="https://www.dropbox.com/s/bk6xvyht9q476k4/data.tar.xz?dl=0"
 dataFile="data.tar.xz"
 
 #Get all of the latest info
